@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI at http://jax-ws.dev.java.net. RI's version is Metro/2.3 (tags/2.3-7528; 2013-04-29T19:34:10+0000) JAXWS-RI/2.2.8 JAXWS/2.2 svn-revision#unknown. --><xs:schema xmlns:tns="http://services.senior.com.br" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://services.senior.com.br">
+
+<xs:complexType name="solicitacaocomprareprovarIn">
+<xs:sequence>
+<xs:element name="flowInstanceID" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="flowName" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="solicitacao" type="tns:solicitacaocomprareprovarInSolicitacao" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="solicitacaocomprareprovarInSolicitacao">
+<xs:sequence>
+<xs:element name="codigoEmpresa" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="numeroSolicitacao" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="sequencia" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="sequenciaSolicitacao" type="xs:int" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="solicitacaocomprareprovarOut">
+<xs:sequence>
+<xs:element name="codigoResultado" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="erroExecucao" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="resultado" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="retorno" type="tns:solicitacaocomprareprovarOutRetorno" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="solicitacaocomprareprovarOutRetorno">
+<xs:sequence>
+<xs:element name="codigoEmpresa" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="mensagemErro" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="numeroSolicitacao" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="resultado" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="sequencia" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="sequenciaSolicitacao" type="xs:int" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="solicitacaocompraaprovarIn">
+<xs:sequence>
+<xs:element name="flowInstanceID" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="flowName" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="solicitacao" type="tns:solicitacaocompraaprovarInSolicitacao" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="solicitacaocompraaprovarInSolicitacao">
+<xs:sequence>
+<xs:element name="codigoEmpresa" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="numeroSolicitacao" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="sequencia" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="sequenciaSolicitacao" type="xs:int" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="solicitacaocompraaprovarOut">
+<xs:sequence>
+<xs:element name="codigoResultado" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="erroExecucao" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="resultado" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="retorno" type="tns:solicitacaocompraaprovarOutRetorno" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="solicitacaocompraaprovarOutRetorno">
+<xs:sequence>
+<xs:element name="codigoEmpresa" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="mensagemErro" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="numeroSolicitacao" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="resultado" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="sequencia" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="sequenciaSolicitacao" type="xs:int" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="solicitacaocomprabuscarPendentesIn">
+<xs:sequence>
+<xs:element name="flowInstanceID" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="flowName" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="indicePagina" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="limitePagina" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="usuario" type="xs:int" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="solicitacaocomprabuscarPendentesOut">
+<xs:sequence>
+<xs:element name="codigoResultado" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="erroExecucao" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="resultado" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="solicitacao" type="tns:solicitacaocomprabuscarPendentesOutSolicitacao" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="solicitacaocomprabuscarPendentesOutSolicitacao">
+<xs:sequence>
+<xs:element name="abreviaturaCentroCusto" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="codigoCentroCusto" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="codigoEmpresa" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="codigoFilial" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="codigoSolicitante" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="dataSolicitacao" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="descricaoMoeda" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="descricaoProdutoServico" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="nomeEmpresa" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="nomeFilial" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="nomeSolicitante" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="numero" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="observacao" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="quantidadeSolicitada" type="xs:double" nillable="true" minOccurs="0"/>
+<xs:element name="sequencia" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="siglaMoeda" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="unidadeMedida" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="valorAproximado" type="xs:double" nillable="true" minOccurs="0"/>
+<xs:element name="valorUnitario" type="xs:double" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="solicitacaocomprabuscarPendentes2In">
+<xs:sequence>
+<xs:element name="codUsu" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="flowInstanceID" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="flowName" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="indicePagina" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="limitePagina" type="xs:int" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="solicitacaocomprabuscarPendentes2Out">
+<xs:sequence>
+<xs:element name="codigoResultado" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="erroExecucao" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="resultado" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="solicitacao" type="tns:solicitacaocomprabuscarPendentes2OutSolicitacao" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="solicitacaocomprabuscarPendentes2OutSolicitacao">
+<xs:sequence>
+<xs:element name="abreviaturaCentroCusto" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="codigoCentroCusto" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="codigoEmpresa" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="codigoFilial" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="codigoSolicitante" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="dataSolicitacao" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="descricaoMoeda" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="descricaoProdutoServico" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="nomeEmpresa" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="nomeFilial" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="nomeSolicitante" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="numero" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="observacao" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="quantidadeSolicitada" type="xs:double" nillable="true" minOccurs="0"/>
+<xs:element name="sequencia" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="siglaMoeda" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="unidadeMedida" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="valorAproximado" type="xs:double" nillable="true" minOccurs="0"/>
+<xs:element name="valorUnitario" type="xs:double" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="solicitacaocomprabuscarPendentes3In">
+<xs:sequence>
+<xs:element name="codUsu" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="flowInstanceID" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="flowName" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="indicePagina" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="limitePagina" type="xs:int" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="solicitacaocomprabuscarPendentes3Out">
+<xs:sequence>
+<xs:element name="codigoResultado" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="erroExecucao" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="resultado" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="solicitacao" type="tns:solicitacaocomprabuscarPendentes3OutSolicitacao" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="solicitacaocomprabuscarPendentes3OutSolicitacao">
+<xs:sequence>
+<xs:element name="abrFpj" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="abrPrj" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="abreviaturaCentroCusto" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="codFpj" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="codigoCentroCusto" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="codigoEmpresa" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="codigoFilial" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="codigoSolicitante" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="dataSolicitacao" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="descricaoMoeda" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="descricaoProdutoServico" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="nomeEmpresa" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="nomeFilial" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="nomeSolicitante" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="numPrj" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="numero" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="observacao" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="quantidadeSolicitada" type="xs:double" nillable="true" minOccurs="0"/>
+<xs:element name="sequencia" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="siglaMoeda" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="unidadeMedida" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="valorAproximado" type="xs:double" nillable="true" minOccurs="0"/>
+<xs:element name="valorUnitario" type="xs:double" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>

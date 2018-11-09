@@ -1,0 +1,381 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI at http://jax-ws.dev.java.net. RI's version is Metro/2.3 (tags/2.3-7528; 2013-04-29T19:34:10+0000) JAXWS-RI/2.2.8 JAXWS/2.2 svn-revision#unknown. --><xs:schema xmlns:tns="http://services.senior.com.br" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://services.senior.com.br">
+
+<xs:complexType name="ordemcomprareprovarIn">
+<xs:sequence>
+<xs:element name="flowInstanceID" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="flowName" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="ordemCompra" type="tns:ordemcomprareprovarInOrdemCompra" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="ordemcomprareprovarInOrdemCompra">
+<xs:sequence>
+<xs:element name="codigoEmpresa" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="codigoFilial" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="numero" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="sequencia" type="xs:int" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="ordemcomprareprovarOut">
+<xs:sequence>
+<xs:element name="codigoResultado" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="erroExecucao" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="resultado" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="retorno" type="tns:ordemcomprareprovarOutRetorno" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="ordemcomprareprovarOutRetorno">
+<xs:sequence>
+<xs:element name="codigoEmpresa" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="codigoFilial" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="mensagemErro" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="numero" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="resultado" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="sequencia" type="xs:int" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="ordemcompraaprovarIn">
+<xs:sequence>
+<xs:element name="flowInstanceID" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="flowName" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="ordemCompra" type="tns:ordemcompraaprovarInOrdemCompra" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="ordemcompraaprovarInOrdemCompra">
+<xs:sequence>
+<xs:element name="codigoEmpresa" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="codigoFilial" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="numero" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="sequencia" type="xs:int" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="ordemcompraaprovarOut">
+<xs:sequence>
+<xs:element name="codigoResultado" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="erroExecucao" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="resultado" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="retorno" type="tns:ordemcompraaprovarOutRetorno" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="ordemcompraaprovarOutRetorno">
+<xs:sequence>
+<xs:element name="codigoEmpresa" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="codigoFilial" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="mensagemErro" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="numero" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="resultado" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="sequencia" type="xs:int" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="ordemcomprabuscarPendentesIn">
+<xs:sequence>
+<xs:element name="flowInstanceID" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="flowName" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="indicePagina" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="limitePagina" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="usuario" type="xs:int" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="ordemcomprabuscarPendentesOut">
+<xs:sequence>
+<xs:element name="codigoResultado" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="erroExecucao" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="ordemCompra" type="tns:ordemcomprabuscarPendentesOutOrdemCompra" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+<xs:element name="resultado" type="xs:string" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="ordemcomprabuscarPendentesOutOrdemCompra">
+<xs:sequence>
+<xs:element name="codigoEmpresa" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="codigoFilial" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="dataEmissao" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="item" type="tns:ordemcomprabuscarPendentesOutOrdemCompraItem" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+<xs:element name="nomeEmpresa" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="nomeFilial" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="nomeFornecedor" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="nomeSolicitante" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="numero" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="observacao" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="rateio" type="tns:ordemcomprabuscarPendentesOutOrdemCompraRateio" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+<xs:element name="usuarioSolicitante" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="valorAproximado" type="xs:double" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="ordemcomprabuscarPendentesOutOrdemCompraItem">
+<xs:sequence>
+<xs:element name="descricao" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="descricaoMoeda" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="observacao" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="quantidadeSolicitada" type="xs:double" nillable="true" minOccurs="0"/>
+<xs:element name="rateio" type="tns:ordemcomprabuscarPendentesOutOrdemCompraItemRateio" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+<xs:element name="siglaMoeda" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="unidadeMedida" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="valorLiquido" type="xs:double" nillable="true" minOccurs="0"/>
+<xs:element name="valorLiquidoMoeda" type="xs:double" nillable="true" minOccurs="0"/>
+<xs:element name="valorUnitario" type="xs:double" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="ordemcomprabuscarPendentesOutOrdemCompraItemRateio">
+<xs:sequence>
+<xs:element name="abreviaturaCentroCustos" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="codigoCentroCustos" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="percentualRateio" type="xs:double" nillable="true" minOccurs="0"/>
+<xs:element name="valorRateio" type="xs:double" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="ordemcomprabuscarPendentesOutOrdemCompraRateio">
+<xs:sequence>
+<xs:element name="abreviaturaCentroCustos" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="codigoCentroCustos" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="percentualRateio" type="xs:double" nillable="true" minOccurs="0"/>
+<xs:element name="valorRateio" type="xs:double" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="ordemcomprabuscarPendentes2In">
+<xs:sequence>
+<xs:element name="codUsu" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="flowInstanceID" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="flowName" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="indicePagina" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="limitePagina" type="xs:int" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="ordemcomprabuscarPendentes2Out">
+<xs:sequence>
+<xs:element name="codigoResultado" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="erroExecucao" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="ordemCompra" type="tns:ordemcomprabuscarPendentes2OutOrdemCompra" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+<xs:element name="resultado" type="xs:string" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="ordemcomprabuscarPendentes2OutOrdemCompra">
+<xs:sequence>
+<xs:element name="codigoEmpresa" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="codigoFilial" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="dataEmissao" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="item" type="tns:ordemcomprabuscarPendentes2OutOrdemCompraItem" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+<xs:element name="nomeEmpresa" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="nomeFilial" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="nomeFornecedor" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="nomeSolicitante" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="numero" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="observacao" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="rateio" type="tns:ordemcomprabuscarPendentes2OutOrdemCompraRateio" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+<xs:element name="usuarioSolicitante" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="valorAproximado" type="xs:double" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="ordemcomprabuscarPendentes2OutOrdemCompraItem">
+<xs:sequence>
+<xs:element name="descricao" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="descricaoMoeda" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="observacao" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="quantidadeSolicitada" type="xs:double" nillable="true" minOccurs="0"/>
+<xs:element name="rateio" type="tns:ordemcomprabuscarPendentes2OutOrdemCompraItemRateio" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+<xs:element name="siglaMoeda" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="unidadeMedida" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="valorLiquido" type="xs:double" nillable="true" minOccurs="0"/>
+<xs:element name="valorLiquidoMoeda" type="xs:double" nillable="true" minOccurs="0"/>
+<xs:element name="valorUnitario" type="xs:double" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="ordemcomprabuscarPendentes2OutOrdemCompraItemRateio">
+<xs:sequence>
+<xs:element name="abreviaturaCentroCustos" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="codigoCentroCustos" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="percentualRateio" type="xs:double" nillable="true" minOccurs="0"/>
+<xs:element name="valorRateio" type="xs:double" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="ordemcomprabuscarPendentes2OutOrdemCompraRateio">
+<xs:sequence>
+<xs:element name="abreviaturaCentroCustos" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="codigoCentroCustos" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="percentualRateio" type="xs:double" nillable="true" minOccurs="0"/>
+<xs:element name="valorRateio" type="xs:double" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="ordemcomprabuscarPendentes4In">
+<xs:sequence>
+<xs:element name="codUsu" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="flowInstanceID" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="flowName" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="indicePagina" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="limitePagina" type="xs:int" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="ordemcomprabuscarPendentes4Out">
+<xs:sequence>
+<xs:element name="codigoResultado" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="erroExecucao" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="ordemCompra" type="tns:ordemcomprabuscarPendentes4OutOrdemCompra" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+<xs:element name="resultado" type="xs:string" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="ordemcomprabuscarPendentes4OutOrdemCompra">
+<xs:sequence>
+<xs:element name="codigoEmpresa" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="codigoFilial" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="dataEmissao" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="item" type="tns:ordemcomprabuscarPendentes4OutOrdemCompraItem" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+<xs:element name="nomeEmpresa" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="nomeFilial" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="nomeFornecedor" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="nomeSolicitante" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="numero" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="observacao" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="observacaoMotivo" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="rateio" type="tns:ordemcomprabuscarPendentes4OutOrdemCompraRateio" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+<xs:element name="usuarioSolicitante" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="valorAproximado" type="xs:double" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="ordemcomprabuscarPendentes4OutOrdemCompraItem">
+<xs:sequence>
+<xs:element name="descricao" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="descricaoMoeda" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="observacao" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="quantidadeSolicitada" type="xs:double" nillable="true" minOccurs="0"/>
+<xs:element name="rateio" type="tns:ordemcomprabuscarPendentes4OutOrdemCompraItemRateio" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+<xs:element name="siglaMoeda" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="unidadeMedida" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="valorLiquido" type="xs:double" nillable="true" minOccurs="0"/>
+<xs:element name="valorLiquidoMoeda" type="xs:double" nillable="true" minOccurs="0"/>
+<xs:element name="valorUnitario" type="xs:double" nillable="true" minOccurs="0"/>
+<xs:element name="vlrBru" type="xs:double" nillable="true" minOccurs="0"/>
+<xs:element name="vlrDs1" type="xs:double" nillable="true" minOccurs="0"/>
+<xs:element name="vlrDs2" type="xs:double" nillable="true" minOccurs="0"/>
+<xs:element name="vlrDs3" type="xs:double" nillable="true" minOccurs="0"/>
+<xs:element name="vlrDs4" type="xs:double" nillable="true" minOccurs="0"/>
+<xs:element name="vlrDs5" type="xs:double" nillable="true" minOccurs="0"/>
+<xs:element name="vlrDsc" type="xs:double" nillable="true" minOccurs="0"/>
+<xs:element name="vlrEmb" type="xs:double" nillable="true" minOccurs="0"/>
+<xs:element name="vlrFre" type="xs:double" nillable="true" minOccurs="0"/>
+<xs:element name="vlrLpr" type="xs:double" nillable="true" minOccurs="0"/>
+<xs:element name="vlrOut" type="xs:double" nillable="true" minOccurs="0"/>
+<xs:element name="vlrSeg" type="xs:double" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="ordemcomprabuscarPendentes4OutOrdemCompraItemRateio">
+<xs:sequence>
+<xs:element name="abreviaturaCentroCustos" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="codigoCentroCustos" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="percentualRateio" type="xs:double" nillable="true" minOccurs="0"/>
+<xs:element name="valorRateio" type="xs:double" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="ordemcomprabuscarPendentes4OutOrdemCompraRateio">
+<xs:sequence>
+<xs:element name="abreviaturaCentroCustos" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="codigoCentroCustos" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="percentualRateio" type="xs:double" nillable="true" minOccurs="0"/>
+<xs:element name="valorRateio" type="xs:double" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="ordemcomprabuscarPendentes3In">
+<xs:sequence>
+<xs:element name="codUsu" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="flowInstanceID" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="flowName" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="indicePagina" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="limitePagina" type="xs:int" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="ordemcomprabuscarPendentes3Out">
+<xs:sequence>
+<xs:element name="codigoResultado" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="erroExecucao" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="ordemCompra" type="tns:ordemcomprabuscarPendentes3OutOrdemCompra" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+<xs:element name="resultado" type="xs:string" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="ordemcomprabuscarPendentes3OutOrdemCompra">
+<xs:sequence>
+<xs:element name="codigoEmpresa" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="codigoFilial" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="dataEmissao" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="item" type="tns:ordemcomprabuscarPendentes3OutOrdemCompraItem" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+<xs:element name="nomeEmpresa" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="nomeFilial" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="nomeFornecedor" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="nomeSolicitante" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="numero" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="observacao" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="rateio" type="tns:ordemcomprabuscarPendentes3OutOrdemCompraRateio" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+<xs:element name="usuarioSolicitante" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="valorAproximado" type="xs:double" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="ordemcomprabuscarPendentes3OutOrdemCompraItem">
+<xs:sequence>
+<xs:element name="descricao" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="descricaoMoeda" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="observacao" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="quantidadeSolicitada" type="xs:double" nillable="true" minOccurs="0"/>
+<xs:element name="rateio" type="tns:ordemcomprabuscarPendentes3OutOrdemCompraItemRateio" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+<xs:element name="siglaMoeda" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="unidadeMedida" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="valorLiquido" type="xs:double" nillable="true" minOccurs="0"/>
+<xs:element name="valorLiquidoMoeda" type="xs:double" nillable="true" minOccurs="0"/>
+<xs:element name="valorUnitario" type="xs:double" nillable="true" minOccurs="0"/>
+<xs:element name="vlrBru" type="xs:double" nillable="true" minOccurs="0"/>
+<xs:element name="vlrDs1" type="xs:double" nillable="true" minOccurs="0"/>
+<xs:element name="vlrDs2" type="xs:double" nillable="true" minOccurs="0"/>
+<xs:element name="vlrDs3" type="xs:double" nillable="true" minOccurs="0"/>
+<xs:element name="vlrDs4" type="xs:double" nillable="true" minOccurs="0"/>
+<xs:element name="vlrDs5" type="xs:double" nillable="true" minOccurs="0"/>
+<xs:element name="vlrDsc" type="xs:double" nillable="true" minOccurs="0"/>
+<xs:element name="vlrEmb" type="xs:double" nillable="true" minOccurs="0"/>
+<xs:element name="vlrFre" type="xs:double" nillable="true" minOccurs="0"/>
+<xs:element name="vlrLpr" type="xs:double" nillable="true" minOccurs="0"/>
+<xs:element name="vlrOut" type="xs:double" nillable="true" minOccurs="0"/>
+<xs:element name="vlrSeg" type="xs:double" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="ordemcomprabuscarPendentes3OutOrdemCompraItemRateio">
+<xs:sequence>
+<xs:element name="abreviaturaCentroCustos" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="codigoCentroCustos" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="percentualRateio" type="xs:double" nillable="true" minOccurs="0"/>
+<xs:element name="valorRateio" type="xs:double" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="ordemcomprabuscarPendentes3OutOrdemCompraRateio">
+<xs:sequence>
+<xs:element name="abreviaturaCentroCustos" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="codigoCentroCustos" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="percentualRateio" type="xs:double" nillable="true" minOccurs="0"/>
+<xs:element name="valorRateio" type="xs:double" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>

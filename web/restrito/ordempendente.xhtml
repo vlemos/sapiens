@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>Sapiens ERP</title>
+    </h:head>
+    <h:body>
+        <div class="ui-fluid">
+            <div class="header">
+                <ui:insert name="header">
+                    <ui:include src="/restrito/menu.xhtml"></ui:include>
+                </ui:insert>
+            </div>
+
+            <h:form id="form" >
+                <p:growl id="msgs" showDetail="true" />
+                <p:panel id="pCliente" header="Ordens Pendentes" >
+                  
+                    <p:panelGrid columns="5" >
+
+                    <p:commandButton value="Aprovar" process="@this" icon="ui-icon-document-b" action="#{ordemController.aprovarSolicitacao}" update="msgs,datatable" >
+                            <p:confirm header="Confirmação" message="Deseja Realmente Aprovar a Ordem Selecionada?" icon="ui-icon-alert" /> 
+                        </p:commandButton>
+                    <p:commandButton value="Reprovar" process="@this" icon="ui-icon-document-b" action="#{ordemController.reprovarSolicitacao}" update="msgs,datatable" >
+                            <p:confirm header="Confirmação" message="Deseja Realmente Reprovar a Ordem Selecionada?" icon="ui-icon-alert" /> 
+                        </p:commandButton>
+                    
+                    <p:commandButton value="Detalhar..." icon="ui-icon-document-b" action="#{ordemController.detalharSolicitacao}" update="msgs" />
+                    <p:commandButton value="Atualizar" process="@this" icon="ui-icon-document-b" action="#{ordemController.atualizarSolicitacao}" update="msgs,datatable"  />
+                    <p:commandButton value="Voltar" icon="ui-icon-document-b" action="#{menuManager.login}" />
+                            
+                        
+
+                        <p:confirmDialog  global="true" showEffect="fade" hideEffect="explode" message="Deseja realmente aprovar?"  >
+                            <p:commandButton value="Sim" type="button" styleClass="ui-confirmdialog-yes" icon="ui-icon-check"  />
+                            <p:commandButton value="Não" type="button" styleClass="ui-confirmdialog-no" icon="ui-icon-close"  />
+                        </p:confirmDialog>
+                 
+
+                 </p:panelGrid>
+                    <p:dataTable  var="ocpendente" value="#{ordemController.ordensPendentes}" 
+                                  selectionMode="single" selection="#{ordemController.ordemPendente}" rowKey="#{ocpendente.chaveControle}" 
+                                  emptyMessage="Nenhum registro encontrado" id="datatable"  tableStyleClass="ui-table-columntoggle"  >
+
+                        <p:ajax event="rowSelect" listener="#{ordemController.onRowSelect}" update=":form:msgs" />
+                        <p:ajax event="rowUnselect" listener="#{ordemController.onRowUnselect}" update=":form:msgs" />
+                        
+                        <p:column headerText="Filial" filterBy="#{ocpendente.nomeFilial}" filterMatchMode="contains">
+                            <h:outputText value="#{ocpendente.nomeFilial}" />
+                        </p:column>
+
+                        <p:column headerText="Data" filterBy="#{ocpendente.dataEmissao}" filterMatchMode="contains">
+                            <h:outputText value="#{ocpendente.dataEmissao}" />
+                        </p:column>
+
+                        <p:column headerText="Numero" filterBy="#{ocpendente.numero}" filterMatchMode="contains">
+                            <h:outputText value="#{ocpendente.numero}" />
+                        </p:column>
+
+                        <p:column headerText="Fornecedor" filterBy="#{ocpendente.nomeFornecedor}" filterMatchMode="contains">
+                            <h:outputText value="#{ocpendente.nomeFornecedor}" />
+                        </p:column>
+
+                        <p:column headerText="Valor" filterBy="#{ocpendente.valorAproximado}" filterMatchMode="contains">
+                            <h:outputText value="#{ocpendente.valorAproximado}" >
+                                 <f:convertNumber type="currency" />
+                            
+                            </h:outputText>
+                        </p:column>
+
+
+                    </p:dataTable>
+
+                </p:panel>
+            </h:form>
+        </div>
+    </h:body>
+</html>
+

@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI at http://jax-ws.dev.java.net. RI's version is Metro/2.3 (tags/2.3-7528; 2013-04-29T19:34:10+0000) JAXWS-RI/2.2.8 JAXWS/2.2 svn-revision#unknown. --><xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://services.senior.com.br">
+
+<xs:complexType name="mcwfUsersChangePasswordIn">
+<xs:sequence>
+<xs:element name="flowInstanceID" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="flowName" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="pmNewPassword" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="pmNewPasswordConfirmation" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="pmPassword" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="pmUser" type="xs:string" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="mcwfUsersChangePasswordOut">
+<xs:sequence>
+<xs:element name="erroExecucao" type="xs:string" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="mcwfUsersUserReplicationIn">
+<xs:sequence>
+<xs:element name="flowInstanceID" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="flowName" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="pmUserReplicationXML" type="xs:string" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="mcwfUsersUserReplicationOut">
+<xs:sequence>
+<xs:element name="erroExecucao" type="xs:string" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="mcwfUsersGetUserGroupsIn">
+<xs:sequence>
+<xs:element name="flowInstanceID" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="flowName" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="pmGetUserGroupsUserName" type="xs:string" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="mcwfUsersGetUserGroupsOut">
+<xs:sequence>
+<xs:element name="erroExecucao" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="pmGetUserGroupsResult" type="xs:string" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="mcwfUsersDiscoverUsersGroupsIn">
+<xs:sequence>
+<xs:element name="flowInstanceID" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="flowName" type="xs:string" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="mcwfUsersDiscoverUsersGroupsOut">
+<xs:sequence>
+<xs:element name="erroExecucao" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="pmReturn" type="xs:string" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="mcwfUsersAuthenticateJAASIn">
+<xs:sequence>
+<xs:element name="flowInstanceID" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="flowName" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="pmEncrypted" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="pmUserName" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="pmUserPassword" type="xs:string" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="mcwfUsersAuthenticateJAASOut">
+<xs:sequence>
+<xs:element name="erroExecucao" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="pmLogged" type="xs:string" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="mcwfUsersPersonExistsIn">
+<xs:sequence>
+<xs:element name="flowInstanceID" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="flowName" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="pmPersonKind" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="pmPersonName" type="xs:string" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="mcwfUsersPersonExistsOut">
+<xs:sequence>
+<xs:element name="erroExecucao" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="pmPersonExists" type="xs:string" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="mcwfUsersGetPersonKindIn">
+<xs:sequence>
+<xs:element name="flowInstanceID" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="flowName" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="pmPersonName" type="xs:string" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="mcwfUsersGetPersonKindOut">
+<xs:sequence>
+<xs:element name="erroExecucao" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="pmPersonKind" type="xs:string" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>

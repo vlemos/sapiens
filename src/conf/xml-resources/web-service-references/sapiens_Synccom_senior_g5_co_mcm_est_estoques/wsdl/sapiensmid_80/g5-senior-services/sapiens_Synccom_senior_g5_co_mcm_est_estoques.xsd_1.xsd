@@ -1,0 +1,323 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI at http://jax-ws.dev.java.net. RI's version is Metro/2.3 (tags/2.3-7528; 2013-04-29T19:34:10+0000) JAXWS-RI/2.2.8 JAXWS/2.2 svn-revision#unknown. --><xs:schema xmlns:tns="http://services.senior.com.br" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://services.senior.com.br">
+
+<xs:complexType name="estoquesMovimentarEstoqueIn">
+<xs:sequence>
+<xs:element name="dadosGerais" type="tns:estoquesMovimentarEstoqueInDadosGerais" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+<xs:element name="flowInstanceID" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="flowName" type="xs:string" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="estoquesMovimentarEstoqueInDadosGerais">
+<xs:sequence>
+<xs:element name="codCcu" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="codCli" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="codDep" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="codDer" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="codEmp" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="codFil" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="codFor" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="codFpj" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="codLot" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="codPro" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="codSnf" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="codTns" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="ctaFin" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="ctaRed" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="datFab" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="datMov" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="datVlt" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="depTrf" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="derTrf" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="motMvp" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="numDoc" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="numNfv" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="numPrj" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="numSep" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="oriOrp" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="proTrf" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="qtdMov" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="seqIpv" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="usuRec" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="usuRes" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="vlrIcm" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="vlrMov" type="xs:string" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="estoquesMovimentarEstoqueOut">
+<xs:sequence>
+<xs:element name="erroExecucao" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="mensagemRetorno" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="retornoMovimento" type="tns:estoquesMovimentarEstoqueOutRetornoMovimento" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+<xs:element name="tipoRetorno" type="xs:int" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="estoquesMovimentarEstoqueOutRetornoMovimento">
+<xs:sequence>
+<xs:element name="aceFec" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="amoNum" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="codBem" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="codBnf" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="codCat" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="codCcu" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="codCli" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="codCul" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="codDep" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="codDer" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="codEmp" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="codEnd" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="codEtg" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="codEtp" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="codFab" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="codFil" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="codFor" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="codFpj" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="codLig" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="codLot" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="codMar" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="codPne" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="codPro" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="codSaf" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="codSlt" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="codSnf" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="codTns" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="codTrm" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="cotCm1" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="cotCm2" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="ctaFin" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="ctaRed" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="datCm1" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="datCm2" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="datDig" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="datEnt" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="datFab" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="datFec" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="datInv" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="datMov" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="datTes" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="datVlt" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="depTrf" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="derTrf" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="estCoc" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="estCof" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="estEos" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="estMov" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="estNeg" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="estVmv" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="estWms" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="expWms" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="filAne" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="filCle" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="filDep" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="filNfc" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="filNfo" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="filOcp" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="filPed" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="forNfo" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="horDig" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="horFab" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="horVlt" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="icmAcf" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="indFab" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="lctFin" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="lotDes" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="lotFab" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="motMvp" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="mskDep" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="nivDep" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="numAmo" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="numAne" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="numAog" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="numBol" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="numCer" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="numCle" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="numDoc" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="numEme" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="numLot" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="numNfc" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="numNfo" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="numNfv" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="numOcp" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="numPed" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="numPfa" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="numPrj" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="numSep" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="numTer" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="obsMvp" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="oriOrp" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="perGer" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="perPur" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="perUmi" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="prmEst" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="prmIcm" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="proFab" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="proTrf" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="qtdAnt" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="qtdEst" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="qtdMov" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="retorno" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="sepDes" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="seqCmp" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="seqEme" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="seqFec" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="seqIpc" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="seqIpd" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="seqIpo" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="seqIpv" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="seqMov" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="seqPes" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="seqTrf" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="snfNfc" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="snfNfo" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="ultMdi" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="usuDig" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="usuRec" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="usuRes" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="utiRep" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="vlrAnt" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="vlrCm1" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="vlrCm2" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="vlrDm1" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="vlrDm2" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="vlrDm3" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="vlrDm4" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="vlrDm5" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="vlrDm6" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="vlrEst" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="vlrIcm" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="vlrMov" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="vltFab" type="xs:string" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="estoquesFecharIn">
+<xs:sequence>
+<xs:element name="ECodDep" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="ECodDer" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="ECodEmp" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="ECodFam" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="ECodFil" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="ECodOri" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="ECodPro" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="EDatFin" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="EDatIni" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="EFecOri" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="flowInstanceID" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="flowName" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="RBAtuSalMov" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="RBCorPriMov" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="RBDifSalAvi" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="RBDifSalCor" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="RBFecAtuEst" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="RBFecAtuFil" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="RBGerMovAce" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="RBMedEstPrm" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="RBMedEstPru" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="RBTipFecNor" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="RBTipFecOri" type="xs:string" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="estoquesFecharOut">
+<xs:sequence>
+<xs:element name="erroExecucao" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="mensagemRetorno" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="tipoRetorno" type="xs:int" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="estoquesConsultarEstoqueIn">
+<xs:sequence>
+<xs:element name="dataBuild" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="entrada" type="tns:estoquesConsultarEstoqueInEntrada" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+<xs:element name="flowInstanceID" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="flowName" type="xs:string" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="estoquesConsultarEstoqueInEntrada">
+<xs:sequence>
+<xs:element name="codDep" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="codDer" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="codEmp" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="codFil" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="codLot" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="codPdv" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="codPro" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="numCgc" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="numSep" type="xs:string" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="estoquesConsultarEstoqueOut">
+<xs:sequence>
+<xs:element name="erroExecucao" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="mensagemRetorno" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="produtos" type="tns:estoquesConsultarEstoqueOutProdutos" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+<xs:element name="tipoRetorno" type="xs:int" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="estoquesConsultarEstoqueOutProdutos">
+<xs:sequence>
+<xs:element name="codDep" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="codDer" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="codEmp" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="codFil" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="codPdv" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="codPro" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="derivacoes" type="tns:estoquesConsultarEstoqueOutProdutosDerivacoes" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+<xs:element name="numCgc" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="qtdBlo" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="qtdDis" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="qtdEst" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="qtdRes" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="retorno" type="xs:string" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="estoquesConsultarEstoqueOutProdutosDerivacoes">
+<xs:sequence>
+<xs:element name="codDer" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="codPdv" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="depositos" type="tns:estoquesConsultarEstoqueOutProdutosDerivacoesDepositos" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+<xs:element name="qtdBlo" type="xs:double" nillable="true" minOccurs="0"/>
+<xs:element name="qtdDis" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="qtdEst" type="xs:double" nillable="true" minOccurs="0"/>
+<xs:element name="qtdRes" type="xs:double" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="estoquesConsultarEstoqueOutProdutosDerivacoesDepositos">
+<xs:sequence>
+<xs:element name="codDep" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="codFil" type="xs:int" nillable="true" minOccurs="0"/>
+<xs:element name="lotes" type="tns:estoquesConsultarEstoqueOutProdutosDerivacoesDepositosLotes" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+<xs:element name="numCgc" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="qtdBlo" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="qtdDis" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="qtdEst" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="qtdRes" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="series" type="tns:estoquesConsultarEstoqueOutProdutosDerivacoesDepositosSeries" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="estoquesConsultarEstoqueOutProdutosDerivacoesDepositosLotes">
+<xs:sequence>
+<xs:element name="codLot" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="qtdBlo" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="qtdDis" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="qtdEst" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="qtdRes" type="xs:string" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="estoquesConsultarEstoqueOutProdutosDerivacoesDepositosSeries">
+<xs:sequence>
+<xs:element name="numSep" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="qtdDis" type="xs:string" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>

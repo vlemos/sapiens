@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+    <h:head>
+        <title>Sapiens ERP</title>
+    </h:head>
+    <h:body>       
+        <div class="ui-fluid">
+            <div class="header">
+                <ui:insert name="header">
+                    <ui:include src="/logo.xhtml"></ui:include>
+                </ui:insert>
+            </div>
+            <h:form id="fMenu"> 
+
+
+                <p:menubar style="margin-top: 1% " autoDisplay="false" id="menuBar" >
+
+                    <p:submenu label="Suprimentos" icon="ui-icon-document" >
+                        <p:submenu label="Compras" icon="ui-icon-contact" >
+                            <p:menuitem value="Solicitações de Compra" action="#{menuManager.menuSolicitacaoPendente}" />
+                            <p:menuitem value="Ordem de Compra" action="#{menuManager.menuOrdemPendente}" />
+                        </p:submenu>
+                    </p:submenu>
+                    
+                    <p:submenu label="Pessoal" icon="ui-icon-document" >
+                        <p:submenu label="Aprovação" icon="ui-icon-contact" >
+                            <p:menuitem value="Aprovação de MP" action="#{loginrubicontroller.loginRubi}" />
+                        </p:submenu>
+                    </p:submenu>
+                    
+                    
+                    <f:facet name="options">
+                        <p:menuButton value="Usuario: #{loginController.usuario.usuario}" >
+                            <p:menuitem value="LogOut" icon="ui-icon-close" action="#{menuManager.logout}"/>
+                        </p:menuButton>
+                    </f:facet>
+                    
+                </p:menubar>
+
+            </h:form>
+        </div>
+    </h:body>
+</html>
+

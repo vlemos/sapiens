@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+    <h:head>
+        <title>Consultar produtos</title>
+    </h:head>
+    <h:body>
+        <div class="ui-fluid">
+            <div class="header">
+                <ui:insert name="header">
+                    <ui:include src="/restrito/menu.xhtml"></ui:include>
+                </ui:insert>
+            </div>
+
+            <h:form id="form" >
+                <p:growl id="msgs" showDetail="true" />
+                <p:panel id="pCliente" header="Consultar Produtos" >
+                    <p:panel styleClass="ui-panelgrid-blank" toggleable="true" header="filtros" toggleSpeed="500" >
+
+                        <h:outputLabel value="Cod. Produto" />
+                        <p:inputText value="#{consultarEstoqueController.codProduto}" />
+                        <h:outputLabel value="Cod. Derivação" />
+                        <p:inputText value="#{consultarEstoqueController.codDerivacao}" />
+                        <h:outputLabel value="Cod. Depósito" />
+                        <p:inputText value="#{consultarEstoqueController.codDeposito}" />
+                        <p:commandButton action="#{consultarEstoqueController.consultarEstoque}" value="Consultar" update="datatable,msgs" />
+
+                    </p:panel>
+                    <p:dataTable  var="produto" value="#{consultarEstoqueController.produtos}" rows="10" paginator="true"
+                                  paginatorTemplate="{CurrentPageReport}  {FirstPageLink} {PreviousPageLink} {PageLinks} {NextPageLink} {LastPageLink} {RowsPerPageDropdown}"
+                                  rowsPerPageTemplate="5,10,15" 
+                                  emptyMessage="Nenhum registro encontrado" id="datatable" tableStyleClass="ui-table-columntoggle" >
+
+                        <p:column headerText="Produto" filterBy="#{produto.codProduto}" filterMatchMode="contains">
+                            <h:outputText value="#{produto.codProduto}" />
+                        </p:column>
+
+                        <p:column headerText="Derivação" filterBy="#{produto.codDerivacao}" filterMatchMode="contains">
+                            <h:outputText value="#{produto.codDerivacao}" />
+                        </p:column>
+
+                        <p:column headerText="Depósito" filterBy="#{produto.codDeposito}" filterMatchMode="contains">
+                            <h:outputText value="#{produto.codDeposito}" />
+                        </p:column>
+
+                        <p:column headerText="Quantidade" filterBy="#{produto.qtdEstoque}" filterMatchMode="contains">
+                            <h:outputText value="#{produto.qtdEstoque}" />
+                        </p:column>
+
+                    </p:dataTable>
+
+                </p:panel>
+            </h:form>
+        </div>
+    </h:body>
+</html>
+

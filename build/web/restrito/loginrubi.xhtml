@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:p="http://primefaces.org/ui">
+     
+    <h:head>
+        <title>Login Sistema Rubi</title>
+        <style type="text/css">
+            .ui-widget {
+                font-size: 90%;
+            }
+        </style>
+    </h:head>
+    <h:body>
+        <h:form>
+            <p:growl id="msgs" showDetail="true"  life="2000" />
+                
+                    <h:panelGrid columns="2" cellpadding="5" >
+
+                        <h:outputText value="Usuario:" />
+                        <p:inputText id="txtUsuario" required="true" requiredMessage="Usuário requerido" 
+                                     value="#{loginrubicontroller.usuarioRubi.usuarioRubi}">  
+                            <p:tooltip id="toolTipUsuario" for="txtUsuario" value="Login do Usuário" showEffect="clip" hideEffect="explode" />
+                        </p:inputText>
+
+                        <h:outputText value="Senha :" />
+                        <p:keyboard id="txtSenha" required="true" requiredMessage="Preencha com a senha"  password="true"
+                                    value="#{loginrubicontroller.usuarioRubi.senhaRubi}"    >
+                            <p:tooltip id="toolTipSenha" for="txtSenha" value="Senha de Login" showEffect="clip" hideEffect="explode" />
+
+                        </p:keyboard>
+
+                        <p:commandButton value="Login" ajax="true" icon="ui-icon-check" validateClient="true" id="login"
+                                         action="#{loginrubicontroller.confirmarLoginRubi}" update="msgs" >
+                            <p:tooltip id="toolTipLogin" for="login" value="Clique para entrar" showEffect="clip" hideEffect="explode" />
+                        </p:commandButton>
+
+                    </h:panelGrid>
+                
+</h:form>
+          
+    </h:body>
+     
+</html>
+
