@@ -351,9 +351,9 @@ public class OrderPendenteController implements java.io.Serializable {
     //}/
     
     private void lerArquivosRede(int numeroOCPendente, int filial) {
-        String caminho = "C:\\DocCompras\\Doc_Compras\\OC\\processos 2018\\";
-        //String caminho = "\\\\baltimore\\doc_compras$\\Doc_Compras\\OC\\processos 2018\\";
-        //\\baltimore\doc_compras$\Doc_Compras\OC\processos 2018
+        String caminho = "C:\\DocCompras\\Doc_Compras\\OC\\processos 2020\\";
+        //String caminho = "\\\\baltimore\\doc_compras$\\Doc_Compras\\OC\\processos 2020\\";
+        //\\baltimore\doc_compras$\Doc_Compras\OC\processos 2020
         File f = new File(caminho + Integer.toString(filial) + "\\" + Integer.toString(numeroOCPendente));
         if (f.exists()) {
             File[] arquivos = f.listFiles(); //retorna um array de Files
@@ -442,7 +442,7 @@ public class OrderPendenteController implements java.io.Serializable {
             ftp.connect("192.168.16.22");
             boolean result = ftp.login("ftp.sapiens", "123Frescatto");
             ftp.enterLocalPassiveMode();
-            boolean sucess = ftp.changeWorkingDirectory("/OC/processos 2018/" + filial);
+            boolean sucess = ftp.changeWorkingDirectory("/OC/processos 2020/" + filial);
             System.out.println("Conexão com FTP com sucesso ? " + result);
             System.out.println("Pasta de arquivos encontrada ? " + sucess);
 
@@ -460,7 +460,7 @@ public class OrderPendenteController implements java.io.Serializable {
                     System.out.println("Encontrou a pasta " + numeroOrdemPendente);
 
                     //File pasta = new File("\\\\baltimore\\arquivos$\\Doc_Compras\\OC\\processos 2017\\" + Integer.toString(numeroOrdemPendente)); //pega conteudo da pasta especifica
-                    ftp.changeWorkingDirectory("/OC/processos 2018/" + Integer.toString(filial) + "/" + Integer.toString(numeroOrdemPendente)); //pega conteudo da pasta especifica
+                    ftp.changeWorkingDirectory("/OC/processos 2020/" + Integer.toString(filial) + "/" + Integer.toString(numeroOrdemPendente)); //pega conteudo da pasta especifica
                     conteudoPasta = ftp.listFiles();
                     System.out.println("listando o conteúdo da pasta");
 
@@ -503,12 +503,12 @@ public class OrderPendenteController implements java.io.Serializable {
                     }*/
                         anexo.setArquivo(new DefaultStreamedContent(stream, "application/pdf", x.getName()));
                         anexo.setNome(x.getName());
-                        anexo.setCaminho("ftp://" + ftp.getRemoteAddress().getHostAddress() + "/OC/processos 2018/"
+                        anexo.setCaminho("ftp://" + ftp.getRemoteAddress().getHostAddress() + "/OC/processos 2020/"
                                 + Integer.toString(filial) + "/"
                                 + Integer.toString(numeroOrdemPendente) + "/"
                                 + x.getName());
 
-//                    anexo.setCaminho(ftp.getRemoteAddress().getHostAddress() + "/OC/processos 2018/" 
+//                    anexo.setCaminho(ftp.getRemoteAddress().getHostAddress() + "/OC/processos 2020/" 
 //                            + Integer.toString(filial) + "/" 
 //                            + Integer.toString(numeroOrdemPendente) + "/"
 //                            + x.getName());

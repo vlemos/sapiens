@@ -10,6 +10,7 @@ import javax.faces.context.FacesContext;
 import javax.xml.bind.JAXBElement;
 import javax.xml.namespace.QName;
 
+
 import model.Produto;
 import model.Usuario;
 import wsestoque.EstoquesConsultarEstoqueIn;

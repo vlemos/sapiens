@@ -24,47 +24,6 @@ import javax.xml.namespace.QName;
 @XmlRegistry
 public class ObjectFactory {
 
-    private final static QName _EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosSeriesNumSep_QNAME = new QName("", "numSep");
-    private final static QName _EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosSeriesQtdDis_QNAME = new QName("", "qtdDis");
-    private final static QName _EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosLotesCodLot_QNAME = new QName("", "codLot");
-    private final static QName _EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosLotesQtdBlo_QNAME = new QName("", "qtdBlo");
-    private final static QName _EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosLotesQtdEst_QNAME = new QName("", "qtdEst");
-    private final static QName _EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosLotesQtdRes_QNAME = new QName("", "qtdRes");
-    private final static QName _EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosCodDep_QNAME = new QName("", "codDep");
-    private final static QName _EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosCodFil_QNAME = new QName("", "codFil");
-    private final static QName _EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosNumCgc_QNAME = new QName("", "numCgc");
-    private final static QName _EstoquesConsultarEstoqueOutProdutosDerivacoesCodDer_QNAME = new QName("", "codDer");
-    private final static QName _EstoquesConsultarEstoqueOutProdutosDerivacoesCodPdv_QNAME = new QName("", "codPdv");
-    private final static QName _EstoquesConsultarEstoqueOutProdutosCodEmp_QNAME = new QName("", "codEmp");
-    private final static QName _EstoquesConsultarEstoqueOutProdutosCodPro_QNAME = new QName("", "codPro");
-    private final static QName _EstoquesConsultarEstoqueOutProdutosRetorno_QNAME = new QName("", "retorno");
-    private final static QName _EstoquesConsultarEstoqueOutErroExecucao_QNAME = new QName("", "erroExecucao");
-    private final static QName _EstoquesConsultarEstoqueOutMensagemRetorno_QNAME = new QName("", "mensagemRetorno");
-    private final static QName _EstoquesConsultarEstoqueOutTipoRetorno_QNAME = new QName("", "tipoRetorno");
-    private final static QName _EstoquesConsultarEstoqueInDataBuild_QNAME = new QName("", "dataBuild");
-    private final static QName _EstoquesConsultarEstoqueInFlowInstanceID_QNAME = new QName("", "flowInstanceID");
-    private final static QName _EstoquesConsultarEstoqueInFlowName_QNAME = new QName("", "flowName");
-    private final static QName _EstoquesFecharInECodDep_QNAME = new QName("", "ECodDep");
-    private final static QName _EstoquesFecharInECodDer_QNAME = new QName("", "ECodDer");
-    private final static QName _EstoquesFecharInECodEmp_QNAME = new QName("", "ECodEmp");
-    private final static QName _EstoquesFecharInECodFam_QNAME = new QName("", "ECodFam");
-    private final static QName _EstoquesFecharInECodFil_QNAME = new QName("", "ECodFil");
-    private final static QName _EstoquesFecharInECodOri_QNAME = new QName("", "ECodOri");
-    private final static QName _EstoquesFecharInECodPro_QNAME = new QName("", "ECodPro");
-    private final static QName _EstoquesFecharInEDatFin_QNAME = new QName("", "EDatFin");
-    private final static QName _EstoquesFecharInEDatIni_QNAME = new QName("", "EDatIni");
-    private final static QName _EstoquesFecharInEFecOri_QNAME = new QName("", "EFecOri");
-    private final static QName _EstoquesFecharInRBAtuSalMov_QNAME = new QName("", "RBAtuSalMov");
-    private final static QName _EstoquesFecharInRBCorPriMov_QNAME = new QName("", "RBCorPriMov");
-    private final static QName _EstoquesFecharInRBDifSalAvi_QNAME = new QName("", "RBDifSalAvi");
-    private final static QName _EstoquesFecharInRBDifSalCor_QNAME = new QName("", "RBDifSalCor");
-    private final static QName _EstoquesFecharInRBFecAtuEst_QNAME = new QName("", "RBFecAtuEst");
-    private final static QName _EstoquesFecharInRBFecAtuFil_QNAME = new QName("", "RBFecAtuFil");
-    private final static QName _EstoquesFecharInRBGerMovAce_QNAME = new QName("", "RBGerMovAce");
-    private final static QName _EstoquesFecharInRBMedEstPrm_QNAME = new QName("", "RBMedEstPrm");
-    private final static QName _EstoquesFecharInRBMedEstPru_QNAME = new QName("", "RBMedEstPru");
-    private final static QName _EstoquesFecharInRBTipFecNor_QNAME = new QName("", "RBTipFecNor");
-    private final static QName _EstoquesFecharInRBTipFecOri_QNAME = new QName("", "RBTipFecOri");
     private final static QName _EstoquesMovimentarEstoqueOutRetornoMovimentoAceFec_QNAME = new QName("", "aceFec");
     private final static QName _EstoquesMovimentarEstoqueOutRetornoMovimentoAmoNum_QNAME = new QName("", "amoNum");
     private final static QName _EstoquesMovimentarEstoqueOutRetornoMovimentoCodBem_QNAME = new QName("", "codBem");
@@ -73,15 +32,21 @@ public class ObjectFactory {
     private final static QName _EstoquesMovimentarEstoqueOutRetornoMovimentoCodCcu_QNAME = new QName("", "codCcu");
     private final static QName _EstoquesMovimentarEstoqueOutRetornoMovimentoCodCli_QNAME = new QName("", "codCli");
     private final static QName _EstoquesMovimentarEstoqueOutRetornoMovimentoCodCul_QNAME = new QName("", "codCul");
+    private final static QName _EstoquesMovimentarEstoqueOutRetornoMovimentoCodDep_QNAME = new QName("", "codDep");
+    private final static QName _EstoquesMovimentarEstoqueOutRetornoMovimentoCodDer_QNAME = new QName("", "codDer");
+    private final static QName _EstoquesMovimentarEstoqueOutRetornoMovimentoCodEmp_QNAME = new QName("", "codEmp");
     private final static QName _EstoquesMovimentarEstoqueOutRetornoMovimentoCodEnd_QNAME = new QName("", "codEnd");
     private final static QName _EstoquesMovimentarEstoqueOutRetornoMovimentoCodEtg_QNAME = new QName("", "codEtg");
     private final static QName _EstoquesMovimentarEstoqueOutRetornoMovimentoCodEtp_QNAME = new QName("", "codEtp");
     private final static QName _EstoquesMovimentarEstoqueOutRetornoMovimentoCodFab_QNAME = new QName("", "codFab");
+    private final static QName _EstoquesMovimentarEstoqueOutRetornoMovimentoCodFil_QNAME = new QName("", "codFil");
     private final static QName _EstoquesMovimentarEstoqueOutRetornoMovimentoCodFor_QNAME = new QName("", "codFor");
     private final static QName _EstoquesMovimentarEstoqueOutRetornoMovimentoCodFpj_QNAME = new QName("", "codFpj");
     private final static QName _EstoquesMovimentarEstoqueOutRetornoMovimentoCodLig_QNAME = new QName("", "codLig");
+    private final static QName _EstoquesMovimentarEstoqueOutRetornoMovimentoCodLot_QNAME = new QName("", "codLot");
     private final static QName _EstoquesMovimentarEstoqueOutRetornoMovimentoCodMar_QNAME = new QName("", "codMar");
     private final static QName _EstoquesMovimentarEstoqueOutRetornoMovimentoCodPne_QNAME = new QName("", "codPne");
+    private final static QName _EstoquesMovimentarEstoqueOutRetornoMovimentoCodPro_QNAME = new QName("", "codPro");
     private final static QName _EstoquesMovimentarEstoqueOutRetornoMovimentoCodSaf_QNAME = new QName("", "codSaf");
     private final static QName _EstoquesMovimentarEstoqueOutRetornoMovimentoCodSlt_QNAME = new QName("", "codSlt");
     private final static QName _EstoquesMovimentarEstoqueOutRetornoMovimentoCodSnf_QNAME = new QName("", "codSnf");
@@ -146,6 +111,7 @@ public class ObjectFactory {
     private final static QName _EstoquesMovimentarEstoqueOutRetornoMovimentoNumPed_QNAME = new QName("", "numPed");
     private final static QName _EstoquesMovimentarEstoqueOutRetornoMovimentoNumPfa_QNAME = new QName("", "numPfa");
     private final static QName _EstoquesMovimentarEstoqueOutRetornoMovimentoNumPrj_QNAME = new QName("", "numPrj");
+    private final static QName _EstoquesMovimentarEstoqueOutRetornoMovimentoNumSep_QNAME = new QName("", "numSep");
     private final static QName _EstoquesMovimentarEstoqueOutRetornoMovimentoNumTer_QNAME = new QName("", "numTer");
     private final static QName _EstoquesMovimentarEstoqueOutRetornoMovimentoObsMvp_QNAME = new QName("", "obsMvp");
     private final static QName _EstoquesMovimentarEstoqueOutRetornoMovimentoOriOrp_QNAME = new QName("", "oriOrp");
@@ -157,7 +123,9 @@ public class ObjectFactory {
     private final static QName _EstoquesMovimentarEstoqueOutRetornoMovimentoProFab_QNAME = new QName("", "proFab");
     private final static QName _EstoquesMovimentarEstoqueOutRetornoMovimentoProTrf_QNAME = new QName("", "proTrf");
     private final static QName _EstoquesMovimentarEstoqueOutRetornoMovimentoQtdAnt_QNAME = new QName("", "qtdAnt");
+    private final static QName _EstoquesMovimentarEstoqueOutRetornoMovimentoQtdEst_QNAME = new QName("", "qtdEst");
     private final static QName _EstoquesMovimentarEstoqueOutRetornoMovimentoQtdMov_QNAME = new QName("", "qtdMov");
+    private final static QName _EstoquesMovimentarEstoqueOutRetornoMovimentoRetorno_QNAME = new QName("", "retorno");
     private final static QName _EstoquesMovimentarEstoqueOutRetornoMovimentoSepDes_QNAME = new QName("", "sepDes");
     private final static QName _EstoquesMovimentarEstoqueOutRetornoMovimentoSeqCmp_QNAME = new QName("", "seqCmp");
     private final static QName _EstoquesMovimentarEstoqueOutRetornoMovimentoSeqEme_QNAME = new QName("", "seqEme");
@@ -189,60 +157,45 @@ public class ObjectFactory {
     private final static QName _EstoquesMovimentarEstoqueOutRetornoMovimentoVlrIcm_QNAME = new QName("", "vlrIcm");
     private final static QName _EstoquesMovimentarEstoqueOutRetornoMovimentoVlrMov_QNAME = new QName("", "vlrMov");
     private final static QName _EstoquesMovimentarEstoqueOutRetornoMovimentoVltFab_QNAME = new QName("", "vltFab");
+    private final static QName _EstoquesMovimentarEstoqueOutErroExecucao_QNAME = new QName("", "erroExecucao");
+    private final static QName _EstoquesMovimentarEstoqueOutMensagemRetorno_QNAME = new QName("", "mensagemRetorno");
+    private final static QName _EstoquesMovimentarEstoqueOutTipoRetorno_QNAME = new QName("", "tipoRetorno");
+    private final static QName _EstoquesMovimentarEstoqueInFlowInstanceID_QNAME = new QName("", "flowInstanceID");
+    private final static QName _EstoquesMovimentarEstoqueInFlowName_QNAME = new QName("", "flowName");
+    private final static QName _EstoquesFecharInECodDep_QNAME = new QName("", "ECodDep");
+    private final static QName _EstoquesFecharInECodDer_QNAME = new QName("", "ECodDer");
+    private final static QName _EstoquesFecharInECodEmp_QNAME = new QName("", "ECodEmp");
+    private final static QName _EstoquesFecharInECodFam_QNAME = new QName("", "ECodFam");
+    private final static QName _EstoquesFecharInECodFil_QNAME = new QName("", "ECodFil");
+    private final static QName _EstoquesFecharInECodOri_QNAME = new QName("", "ECodOri");
+    private final static QName _EstoquesFecharInECodPro_QNAME = new QName("", "ECodPro");
+    private final static QName _EstoquesFecharInEDatFin_QNAME = new QName("", "EDatFin");
+    private final static QName _EstoquesFecharInEDatIni_QNAME = new QName("", "EDatIni");
+    private final static QName _EstoquesFecharInEFecOri_QNAME = new QName("", "EFecOri");
+    private final static QName _EstoquesFecharInRBAtuSalMov_QNAME = new QName("", "RBAtuSalMov");
+    private final static QName _EstoquesFecharInRBCorPriMov_QNAME = new QName("", "RBCorPriMov");
+    private final static QName _EstoquesFecharInRBDifSalAvi_QNAME = new QName("", "RBDifSalAvi");
+    private final static QName _EstoquesFecharInRBDifSalCor_QNAME = new QName("", "RBDifSalCor");
+    private final static QName _EstoquesFecharInRBFecAtuEst_QNAME = new QName("", "RBFecAtuEst");
+    private final static QName _EstoquesFecharInRBFecAtuFil_QNAME = new QName("", "RBFecAtuFil");
+    private final static QName _EstoquesFecharInRBGerMovAce_QNAME = new QName("", "RBGerMovAce");
+    private final static QName _EstoquesFecharInRBMedEstPrm_QNAME = new QName("", "RBMedEstPrm");
+    private final static QName _EstoquesFecharInRBMedEstPru_QNAME = new QName("", "RBMedEstPru");
+    private final static QName _EstoquesFecharInRBTipFecNor_QNAME = new QName("", "RBTipFecNor");
+    private final static QName _EstoquesFecharInRBTipFecOri_QNAME = new QName("", "RBTipFecOri");
+    private final static QName _EstoquesTransferenciaProdutosInTransferenciasEntreProdutosEntradaUniMed_QNAME = new QName("", "uniMed");
+    private final static QName _EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosSeriesQtdDis_QNAME = new QName("", "qtdDis");
+    private final static QName _EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosLotesQtdBlo_QNAME = new QName("", "qtdBlo");
+    private final static QName _EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosLotesQtdRes_QNAME = new QName("", "qtdRes");
+    private final static QName _EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosNumCgc_QNAME = new QName("", "numCgc");
+    private final static QName _EstoquesConsultarEstoqueOutProdutosDerivacoesCodPdv_QNAME = new QName("", "codPdv");
+    private final static QName _EstoquesConsultarEstoqueInDataBuild_QNAME = new QName("", "dataBuild");
 
     /**
      * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: wsestoque
      * 
      */
     public ObjectFactory() {
-    }
-
-    /**
-     * Create an instance of {@link EstoquesMovimentarEstoqueIn }
-     * 
-     */
-    public EstoquesMovimentarEstoqueIn createEstoquesMovimentarEstoqueIn() {
-        return new EstoquesMovimentarEstoqueIn();
-    }
-
-    /**
-     * Create an instance of {@link EstoquesMovimentarEstoqueInDadosGerais }
-     * 
-     */
-    public EstoquesMovimentarEstoqueInDadosGerais createEstoquesMovimentarEstoqueInDadosGerais() {
-        return new EstoquesMovimentarEstoqueInDadosGerais();
-    }
-
-    /**
-     * Create an instance of {@link EstoquesMovimentarEstoqueOut }
-     * 
-     */
-    public EstoquesMovimentarEstoqueOut createEstoquesMovimentarEstoqueOut() {
-        return new EstoquesMovimentarEstoqueOut();
-    }
-
-    /**
-     * Create an instance of {@link EstoquesMovimentarEstoqueOutRetornoMovimento }
-     * 
-     */
-    public EstoquesMovimentarEstoqueOutRetornoMovimento createEstoquesMovimentarEstoqueOutRetornoMovimento() {
-        return new EstoquesMovimentarEstoqueOutRetornoMovimento();
-    }
-
-    /**
-     * Create an instance of {@link EstoquesFecharIn }
-     * 
-     */
-    public EstoquesFecharIn createEstoquesFecharIn() {
-        return new EstoquesFecharIn();
-    }
-
-    /**
-     * Create an instance of {@link EstoquesFecharOut }
-     * 
-     */
-    public EstoquesFecharOut createEstoquesFecharOut() {
-        return new EstoquesFecharOut();
     }
 
     /**
@@ -310,665 +263,108 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link EstoquesTransferenciaProdutosIn }
      * 
      */
-    @XmlElementDecl(namespace = "", name = "numSep", scope = EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosSeries.class)
-    public JAXBElement<String> createEstoquesConsultarEstoqueOutProdutosDerivacoesDepositosSeriesNumSep(String value) {
-        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosSeriesNumSep_QNAME, String.class, EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosSeries.class, value);
+    public EstoquesTransferenciaProdutosIn createEstoquesTransferenciaProdutosIn() {
+        return new EstoquesTransferenciaProdutosIn();
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link EstoquesTransferenciaProdutosInTransferenciaEntreProdutosSaida }
      * 
      */
-    @XmlElementDecl(namespace = "", name = "qtdDis", scope = EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosSeries.class)
-    public JAXBElement<String> createEstoquesConsultarEstoqueOutProdutosDerivacoesDepositosSeriesQtdDis(String value) {
-        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosSeriesQtdDis_QNAME, String.class, EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosSeries.class, value);
+    public EstoquesTransferenciaProdutosInTransferenciaEntreProdutosSaida createEstoquesTransferenciaProdutosInTransferenciaEntreProdutosSaida() {
+        return new EstoquesTransferenciaProdutosInTransferenciaEntreProdutosSaida();
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link EstoquesTransferenciaProdutosInTransferenciaEntreProdutosSaidaCodLot }
      * 
      */
-    @XmlElementDecl(namespace = "", name = "codLot", scope = EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosLotes.class)
-    public JAXBElement<String> createEstoquesConsultarEstoqueOutProdutosDerivacoesDepositosLotesCodLot(String value) {
-        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosLotesCodLot_QNAME, String.class, EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosLotes.class, value);
+    public EstoquesTransferenciaProdutosInTransferenciaEntreProdutosSaidaCodLot createEstoquesTransferenciaProdutosInTransferenciaEntreProdutosSaidaCodLot() {
+        return new EstoquesTransferenciaProdutosInTransferenciaEntreProdutosSaidaCodLot();
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link EstoquesTransferenciaProdutosInTransferenciasEntreProdutosEntrada }
      * 
      */
-    @XmlElementDecl(namespace = "", name = "qtdBlo", scope = EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosLotes.class)
-    public JAXBElement<String> createEstoquesConsultarEstoqueOutProdutosDerivacoesDepositosLotesQtdBlo(String value) {
-        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosLotesQtdBlo_QNAME, String.class, EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosLotes.class, value);
+    public EstoquesTransferenciaProdutosInTransferenciasEntreProdutosEntrada createEstoquesTransferenciaProdutosInTransferenciasEntreProdutosEntrada() {
+        return new EstoquesTransferenciaProdutosInTransferenciasEntreProdutosEntrada();
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link EstoquesTransferenciaProdutosInTransferenciasEntreProdutosEntradaCodLot }
      * 
      */
-    @XmlElementDecl(namespace = "", name = "qtdDis", scope = EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosLotes.class)
-    public JAXBElement<String> createEstoquesConsultarEstoqueOutProdutosDerivacoesDepositosLotesQtdDis(String value) {
-        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosSeriesQtdDis_QNAME, String.class, EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosLotes.class, value);
+    public EstoquesTransferenciaProdutosInTransferenciasEntreProdutosEntradaCodLot createEstoquesTransferenciaProdutosInTransferenciasEntreProdutosEntradaCodLot() {
+        return new EstoquesTransferenciaProdutosInTransferenciasEntreProdutosEntradaCodLot();
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link EstoquesTransferenciaProdutosOut }
      * 
      */
-    @XmlElementDecl(namespace = "", name = "qtdEst", scope = EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosLotes.class)
-    public JAXBElement<String> createEstoquesConsultarEstoqueOutProdutosDerivacoesDepositosLotesQtdEst(String value) {
-        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosLotesQtdEst_QNAME, String.class, EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosLotes.class, value);
+    public EstoquesTransferenciaProdutosOut createEstoquesTransferenciaProdutosOut() {
+        return new EstoquesTransferenciaProdutosOut();
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link EstoquesFecharIn }
      * 
      */
-    @XmlElementDecl(namespace = "", name = "qtdRes", scope = EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosLotes.class)
-    public JAXBElement<String> createEstoquesConsultarEstoqueOutProdutosDerivacoesDepositosLotesQtdRes(String value) {
-        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosLotesQtdRes_QNAME, String.class, EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosLotes.class, value);
+    public EstoquesFecharIn createEstoquesFecharIn() {
+        return new EstoquesFecharIn();
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link EstoquesFecharOut }
      * 
      */
-    @XmlElementDecl(namespace = "", name = "codDep", scope = EstoquesConsultarEstoqueOutProdutosDerivacoesDepositos.class)
-    public JAXBElement<String> createEstoquesConsultarEstoqueOutProdutosDerivacoesDepositosCodDep(String value) {
-        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosCodDep_QNAME, String.class, EstoquesConsultarEstoqueOutProdutosDerivacoesDepositos.class, value);
+    public EstoquesFecharOut createEstoquesFecharOut() {
+        return new EstoquesFecharOut();
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
+     * Create an instance of {@link EstoquesMovimentarEstoqueIn }
      * 
      */
-    @XmlElementDecl(namespace = "", name = "codFil", scope = EstoquesConsultarEstoqueOutProdutosDerivacoesDepositos.class)
-    public JAXBElement<Integer> createEstoquesConsultarEstoqueOutProdutosDerivacoesDepositosCodFil(Integer value) {
-        return new JAXBElement<Integer>(_EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosCodFil_QNAME, Integer.class, EstoquesConsultarEstoqueOutProdutosDerivacoesDepositos.class, value);
+    public EstoquesMovimentarEstoqueIn createEstoquesMovimentarEstoqueIn() {
+        return new EstoquesMovimentarEstoqueIn();
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link EstoquesMovimentarEstoqueInDadosGerais }
      * 
      */
-    @XmlElementDecl(namespace = "", name = "numCgc", scope = EstoquesConsultarEstoqueOutProdutosDerivacoesDepositos.class)
-    public JAXBElement<String> createEstoquesConsultarEstoqueOutProdutosDerivacoesDepositosNumCgc(String value) {
-        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosNumCgc_QNAME, String.class, EstoquesConsultarEstoqueOutProdutosDerivacoesDepositos.class, value);
+    public EstoquesMovimentarEstoqueInDadosGerais createEstoquesMovimentarEstoqueInDadosGerais() {
+        return new EstoquesMovimentarEstoqueInDadosGerais();
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link EstoquesMovimentarEstoqueOut }
      * 
      */
-    @XmlElementDecl(namespace = "", name = "qtdBlo", scope = EstoquesConsultarEstoqueOutProdutosDerivacoesDepositos.class)
-    public JAXBElement<String> createEstoquesConsultarEstoqueOutProdutosDerivacoesDepositosQtdBlo(String value) {
-        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosLotesQtdBlo_QNAME, String.class, EstoquesConsultarEstoqueOutProdutosDerivacoesDepositos.class, value);
+    public EstoquesMovimentarEstoqueOut createEstoquesMovimentarEstoqueOut() {
+        return new EstoquesMovimentarEstoqueOut();
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link EstoquesMovimentarEstoqueOutRetornoMovimento }
      * 
      */
-    @XmlElementDecl(namespace = "", name = "qtdDis", scope = EstoquesConsultarEstoqueOutProdutosDerivacoesDepositos.class)
-    public JAXBElement<String> createEstoquesConsultarEstoqueOutProdutosDerivacoesDepositosQtdDis(String value) {
-        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosSeriesQtdDis_QNAME, String.class, EstoquesConsultarEstoqueOutProdutosDerivacoesDepositos.class, value);
+    public EstoquesMovimentarEstoqueOutRetornoMovimento createEstoquesMovimentarEstoqueOutRetornoMovimento() {
+        return new EstoquesMovimentarEstoqueOutRetornoMovimento();
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
-     */
-    @XmlElementDecl(namespace = "", name = "qtdEst", scope = EstoquesConsultarEstoqueOutProdutosDerivacoesDepositos.class)
-    public JAXBElement<String> createEstoquesConsultarEstoqueOutProdutosDerivacoesDepositosQtdEst(String value) {
-        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosLotesQtdEst_QNAME, String.class, EstoquesConsultarEstoqueOutProdutosDerivacoesDepositos.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "qtdRes", scope = EstoquesConsultarEstoqueOutProdutosDerivacoesDepositos.class)
-    public JAXBElement<String> createEstoquesConsultarEstoqueOutProdutosDerivacoesDepositosQtdRes(String value) {
-        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosLotesQtdRes_QNAME, String.class, EstoquesConsultarEstoqueOutProdutosDerivacoesDepositos.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "codDer", scope = EstoquesConsultarEstoqueOutProdutosDerivacoes.class)
-    public JAXBElement<String> createEstoquesConsultarEstoqueOutProdutosDerivacoesCodDer(String value) {
-        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosDerivacoesCodDer_QNAME, String.class, EstoquesConsultarEstoqueOutProdutosDerivacoes.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "codPdv", scope = EstoquesConsultarEstoqueOutProdutosDerivacoes.class)
-    public JAXBElement<String> createEstoquesConsultarEstoqueOutProdutosDerivacoesCodPdv(String value) {
-        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosDerivacoesCodPdv_QNAME, String.class, EstoquesConsultarEstoqueOutProdutosDerivacoes.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Double }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "qtdBlo", scope = EstoquesConsultarEstoqueOutProdutosDerivacoes.class)
-    public JAXBElement<Double> createEstoquesConsultarEstoqueOutProdutosDerivacoesQtdBlo(Double value) {
-        return new JAXBElement<Double>(_EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosLotesQtdBlo_QNAME, Double.class, EstoquesConsultarEstoqueOutProdutosDerivacoes.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "qtdDis", scope = EstoquesConsultarEstoqueOutProdutosDerivacoes.class)
-    public JAXBElement<String> createEstoquesConsultarEstoqueOutProdutosDerivacoesQtdDis(String value) {
-        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosSeriesQtdDis_QNAME, String.class, EstoquesConsultarEstoqueOutProdutosDerivacoes.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Double }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "qtdEst", scope = EstoquesConsultarEstoqueOutProdutosDerivacoes.class)
-    public JAXBElement<Double> createEstoquesConsultarEstoqueOutProdutosDerivacoesQtdEst(Double value) {
-        return new JAXBElement<Double>(_EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosLotesQtdEst_QNAME, Double.class, EstoquesConsultarEstoqueOutProdutosDerivacoes.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Double }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "qtdRes", scope = EstoquesConsultarEstoqueOutProdutosDerivacoes.class)
-    public JAXBElement<Double> createEstoquesConsultarEstoqueOutProdutosDerivacoesQtdRes(Double value) {
-        return new JAXBElement<Double>(_EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosLotesQtdRes_QNAME, Double.class, EstoquesConsultarEstoqueOutProdutosDerivacoes.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "codDep", scope = EstoquesConsultarEstoqueOutProdutos.class)
-    public JAXBElement<String> createEstoquesConsultarEstoqueOutProdutosCodDep(String value) {
-        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosCodDep_QNAME, String.class, EstoquesConsultarEstoqueOutProdutos.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "codDer", scope = EstoquesConsultarEstoqueOutProdutos.class)
-    public JAXBElement<String> createEstoquesConsultarEstoqueOutProdutosCodDer(String value) {
-        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosDerivacoesCodDer_QNAME, String.class, EstoquesConsultarEstoqueOutProdutos.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "codEmp", scope = EstoquesConsultarEstoqueOutProdutos.class)
-    public JAXBElement<Integer> createEstoquesConsultarEstoqueOutProdutosCodEmp(Integer value) {
-        return new JAXBElement<Integer>(_EstoquesConsultarEstoqueOutProdutosCodEmp_QNAME, Integer.class, EstoquesConsultarEstoqueOutProdutos.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "codFil", scope = EstoquesConsultarEstoqueOutProdutos.class)
-    public JAXBElement<Integer> createEstoquesConsultarEstoqueOutProdutosCodFil(Integer value) {
-        return new JAXBElement<Integer>(_EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosCodFil_QNAME, Integer.class, EstoquesConsultarEstoqueOutProdutos.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "codPdv", scope = EstoquesConsultarEstoqueOutProdutos.class)
-    public JAXBElement<String> createEstoquesConsultarEstoqueOutProdutosCodPdv(String value) {
-        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosDerivacoesCodPdv_QNAME, String.class, EstoquesConsultarEstoqueOutProdutos.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "codPro", scope = EstoquesConsultarEstoqueOutProdutos.class)
-    public JAXBElement<String> createEstoquesConsultarEstoqueOutProdutosCodPro(String value) {
-        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosCodPro_QNAME, String.class, EstoquesConsultarEstoqueOutProdutos.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "numCgc", scope = EstoquesConsultarEstoqueOutProdutos.class)
-    public JAXBElement<String> createEstoquesConsultarEstoqueOutProdutosNumCgc(String value) {
-        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosNumCgc_QNAME, String.class, EstoquesConsultarEstoqueOutProdutos.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "qtdBlo", scope = EstoquesConsultarEstoqueOutProdutos.class)
-    public JAXBElement<String> createEstoquesConsultarEstoqueOutProdutosQtdBlo(String value) {
-        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosLotesQtdBlo_QNAME, String.class, EstoquesConsultarEstoqueOutProdutos.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "qtdDis", scope = EstoquesConsultarEstoqueOutProdutos.class)
-    public JAXBElement<String> createEstoquesConsultarEstoqueOutProdutosQtdDis(String value) {
-        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosSeriesQtdDis_QNAME, String.class, EstoquesConsultarEstoqueOutProdutos.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "qtdEst", scope = EstoquesConsultarEstoqueOutProdutos.class)
-    public JAXBElement<String> createEstoquesConsultarEstoqueOutProdutosQtdEst(String value) {
-        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosLotesQtdEst_QNAME, String.class, EstoquesConsultarEstoqueOutProdutos.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "qtdRes", scope = EstoquesConsultarEstoqueOutProdutos.class)
-    public JAXBElement<String> createEstoquesConsultarEstoqueOutProdutosQtdRes(String value) {
-        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosLotesQtdRes_QNAME, String.class, EstoquesConsultarEstoqueOutProdutos.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "retorno", scope = EstoquesConsultarEstoqueOutProdutos.class)
-    public JAXBElement<String> createEstoquesConsultarEstoqueOutProdutosRetorno(String value) {
-        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosRetorno_QNAME, String.class, EstoquesConsultarEstoqueOutProdutos.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "erroExecucao", scope = EstoquesConsultarEstoqueOut.class)
-    public JAXBElement<String> createEstoquesConsultarEstoqueOutErroExecucao(String value) {
-        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutErroExecucao_QNAME, String.class, EstoquesConsultarEstoqueOut.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "mensagemRetorno", scope = EstoquesConsultarEstoqueOut.class)
-    public JAXBElement<String> createEstoquesConsultarEstoqueOutMensagemRetorno(String value) {
-        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutMensagemRetorno_QNAME, String.class, EstoquesConsultarEstoqueOut.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "tipoRetorno", scope = EstoquesConsultarEstoqueOut.class)
-    public JAXBElement<Integer> createEstoquesConsultarEstoqueOutTipoRetorno(Integer value) {
-        return new JAXBElement<Integer>(_EstoquesConsultarEstoqueOutTipoRetorno_QNAME, Integer.class, EstoquesConsultarEstoqueOut.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "codDep", scope = EstoquesConsultarEstoqueInEntrada.class)
-    public JAXBElement<String> createEstoquesConsultarEstoqueInEntradaCodDep(String value) {
-        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosCodDep_QNAME, String.class, EstoquesConsultarEstoqueInEntrada.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "codDer", scope = EstoquesConsultarEstoqueInEntrada.class)
-    public JAXBElement<String> createEstoquesConsultarEstoqueInEntradaCodDer(String value) {
-        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosDerivacoesCodDer_QNAME, String.class, EstoquesConsultarEstoqueInEntrada.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "codEmp", scope = EstoquesConsultarEstoqueInEntrada.class)
-    public JAXBElement<String> createEstoquesConsultarEstoqueInEntradaCodEmp(String value) {
-        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosCodEmp_QNAME, String.class, EstoquesConsultarEstoqueInEntrada.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "codFil", scope = EstoquesConsultarEstoqueInEntrada.class)
-    public JAXBElement<String> createEstoquesConsultarEstoqueInEntradaCodFil(String value) {
-        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosCodFil_QNAME, String.class, EstoquesConsultarEstoqueInEntrada.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "codLot", scope = EstoquesConsultarEstoqueInEntrada.class)
-    public JAXBElement<String> createEstoquesConsultarEstoqueInEntradaCodLot(String value) {
-        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosLotesCodLot_QNAME, String.class, EstoquesConsultarEstoqueInEntrada.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "codPdv", scope = EstoquesConsultarEstoqueInEntrada.class)
-    public JAXBElement<String> createEstoquesConsultarEstoqueInEntradaCodPdv(String value) {
-        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosDerivacoesCodPdv_QNAME, String.class, EstoquesConsultarEstoqueInEntrada.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "codPro", scope = EstoquesConsultarEstoqueInEntrada.class)
-    public JAXBElement<String> createEstoquesConsultarEstoqueInEntradaCodPro(String value) {
-        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosCodPro_QNAME, String.class, EstoquesConsultarEstoqueInEntrada.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "numCgc", scope = EstoquesConsultarEstoqueInEntrada.class)
-    public JAXBElement<String> createEstoquesConsultarEstoqueInEntradaNumCgc(String value) {
-        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosNumCgc_QNAME, String.class, EstoquesConsultarEstoqueInEntrada.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "numSep", scope = EstoquesConsultarEstoqueInEntrada.class)
-    public JAXBElement<String> createEstoquesConsultarEstoqueInEntradaNumSep(String value) {
-        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosSeriesNumSep_QNAME, String.class, EstoquesConsultarEstoqueInEntrada.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "dataBuild", scope = EstoquesConsultarEstoqueIn.class)
-    public JAXBElement<String> createEstoquesConsultarEstoqueInDataBuild(String value) {
-        return new JAXBElement<String>(_EstoquesConsultarEstoqueInDataBuild_QNAME, String.class, EstoquesConsultarEstoqueIn.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "flowInstanceID", scope = EstoquesConsultarEstoqueIn.class)
-    public JAXBElement<String> createEstoquesConsultarEstoqueInFlowInstanceID(String value) {
-        return new JAXBElement<String>(_EstoquesConsultarEstoqueInFlowInstanceID_QNAME, String.class, EstoquesConsultarEstoqueIn.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "flowName", scope = EstoquesConsultarEstoqueIn.class)
-    public JAXBElement<String> createEstoquesConsultarEstoqueInFlowName(String value) {
-        return new JAXBElement<String>(_EstoquesConsultarEstoqueInFlowName_QNAME, String.class, EstoquesConsultarEstoqueIn.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "erroExecucao", scope = EstoquesFecharOut.class)
-    public JAXBElement<String> createEstoquesFecharOutErroExecucao(String value) {
-        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutErroExecucao_QNAME, String.class, EstoquesFecharOut.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "mensagemRetorno", scope = EstoquesFecharOut.class)
-    public JAXBElement<String> createEstoquesFecharOutMensagemRetorno(String value) {
-        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutMensagemRetorno_QNAME, String.class, EstoquesFecharOut.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "tipoRetorno", scope = EstoquesFecharOut.class)
-    public JAXBElement<Integer> createEstoquesFecharOutTipoRetorno(Integer value) {
-        return new JAXBElement<Integer>(_EstoquesConsultarEstoqueOutTipoRetorno_QNAME, Integer.class, EstoquesFecharOut.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "ECodDep", scope = EstoquesFecharIn.class)
-    public JAXBElement<String> createEstoquesFecharInECodDep(String value) {
-        return new JAXBElement<String>(_EstoquesFecharInECodDep_QNAME, String.class, EstoquesFecharIn.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "ECodDer", scope = EstoquesFecharIn.class)
-    public JAXBElement<String> createEstoquesFecharInECodDer(String value) {
-        return new JAXBElement<String>(_EstoquesFecharInECodDer_QNAME, String.class, EstoquesFecharIn.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "ECodEmp", scope = EstoquesFecharIn.class)
-    public JAXBElement<String> createEstoquesFecharInECodEmp(String value) {
-        return new JAXBElement<String>(_EstoquesFecharInECodEmp_QNAME, String.class, EstoquesFecharIn.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "ECodFam", scope = EstoquesFecharIn.class)
-    public JAXBElement<String> createEstoquesFecharInECodFam(String value) {
-        return new JAXBElement<String>(_EstoquesFecharInECodFam_QNAME, String.class, EstoquesFecharIn.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "ECodFil", scope = EstoquesFecharIn.class)
-    public JAXBElement<String> createEstoquesFecharInECodFil(String value) {
-        return new JAXBElement<String>(_EstoquesFecharInECodFil_QNAME, String.class, EstoquesFecharIn.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "ECodOri", scope = EstoquesFecharIn.class)
-    public JAXBElement<String> createEstoquesFecharInECodOri(String value) {
-        return new JAXBElement<String>(_EstoquesFecharInECodOri_QNAME, String.class, EstoquesFecharIn.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "ECodPro", scope = EstoquesFecharIn.class)
-    public JAXBElement<String> createEstoquesFecharInECodPro(String value) {
-        return new JAXBElement<String>(_EstoquesFecharInECodPro_QNAME, String.class, EstoquesFecharIn.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "EDatFin", scope = EstoquesFecharIn.class)
-    public JAXBElement<String> createEstoquesFecharInEDatFin(String value) {
-        return new JAXBElement<String>(_EstoquesFecharInEDatFin_QNAME, String.class, EstoquesFecharIn.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "EDatIni", scope = EstoquesFecharIn.class)
-    public JAXBElement<String> createEstoquesFecharInEDatIni(String value) {
-        return new JAXBElement<String>(_EstoquesFecharInEDatIni_QNAME, String.class, EstoquesFecharIn.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "EFecOri", scope = EstoquesFecharIn.class)
-    public JAXBElement<String> createEstoquesFecharInEFecOri(String value) {
-        return new JAXBElement<String>(_EstoquesFecharInEFecOri_QNAME, String.class, EstoquesFecharIn.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "flowInstanceID", scope = EstoquesFecharIn.class)
-    public JAXBElement<String> createEstoquesFecharInFlowInstanceID(String value) {
-        return new JAXBElement<String>(_EstoquesConsultarEstoqueInFlowInstanceID_QNAME, String.class, EstoquesFecharIn.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "flowName", scope = EstoquesFecharIn.class)
-    public JAXBElement<String> createEstoquesFecharInFlowName(String value) {
-        return new JAXBElement<String>(_EstoquesConsultarEstoqueInFlowName_QNAME, String.class, EstoquesFecharIn.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "RBAtuSalMov", scope = EstoquesFecharIn.class)
-    public JAXBElement<String> createEstoquesFecharInRBAtuSalMov(String value) {
-        return new JAXBElement<String>(_EstoquesFecharInRBAtuSalMov_QNAME, String.class, EstoquesFecharIn.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "RBCorPriMov", scope = EstoquesFecharIn.class)
-    public JAXBElement<String> createEstoquesFecharInRBCorPriMov(String value) {
-        return new JAXBElement<String>(_EstoquesFecharInRBCorPriMov_QNAME, String.class, EstoquesFecharIn.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "RBDifSalAvi", scope = EstoquesFecharIn.class)
-    public JAXBElement<String> createEstoquesFecharInRBDifSalAvi(String value) {
-        return new JAXBElement<String>(_EstoquesFecharInRBDifSalAvi_QNAME, String.class, EstoquesFecharIn.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "RBDifSalCor", scope = EstoquesFecharIn.class)
-    public JAXBElement<String> createEstoquesFecharInRBDifSalCor(String value) {
-        return new JAXBElement<String>(_EstoquesFecharInRBDifSalCor_QNAME, String.class, EstoquesFecharIn.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "RBFecAtuEst", scope = EstoquesFecharIn.class)
-    public JAXBElement<String> createEstoquesFecharInRBFecAtuEst(String value) {
-        return new JAXBElement<String>(_EstoquesFecharInRBFecAtuEst_QNAME, String.class, EstoquesFecharIn.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "RBFecAtuFil", scope = EstoquesFecharIn.class)
-    public JAXBElement<String> createEstoquesFecharInRBFecAtuFil(String value) {
-        return new JAXBElement<String>(_EstoquesFecharInRBFecAtuFil_QNAME, String.class, EstoquesFecharIn.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "RBGerMovAce", scope = EstoquesFecharIn.class)
-    public JAXBElement<String> createEstoquesFecharInRBGerMovAce(String value) {
-        return new JAXBElement<String>(_EstoquesFecharInRBGerMovAce_QNAME, String.class, EstoquesFecharIn.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "RBMedEstPrm", scope = EstoquesFecharIn.class)
-    public JAXBElement<String> createEstoquesFecharInRBMedEstPrm(String value) {
-        return new JAXBElement<String>(_EstoquesFecharInRBMedEstPrm_QNAME, String.class, EstoquesFecharIn.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "RBMedEstPru", scope = EstoquesFecharIn.class)
-    public JAXBElement<String> createEstoquesFecharInRBMedEstPru(String value) {
-        return new JAXBElement<String>(_EstoquesFecharInRBMedEstPru_QNAME, String.class, EstoquesFecharIn.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "RBTipFecNor", scope = EstoquesFecharIn.class)
-    public JAXBElement<String> createEstoquesFecharInRBTipFecNor(String value) {
-        return new JAXBElement<String>(_EstoquesFecharInRBTipFecNor_QNAME, String.class, EstoquesFecharIn.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "RBTipFecOri", scope = EstoquesFecharIn.class)
-    public JAXBElement<String> createEstoquesFecharInRBTipFecOri(String value) {
-        return new JAXBElement<String>(_EstoquesFecharInRBTipFecOri_QNAME, String.class, EstoquesFecharIn.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "aceFec", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoAceFec(String value) {
@@ -976,8 +372,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "amoNum", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoAmoNum(String value) {
@@ -985,8 +385,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "codBem", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoCodBem(String value) {
@@ -994,8 +398,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "codBnf", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoCodBnf(String value) {
@@ -1003,8 +411,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "codCat", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoCodCat(String value) {
@@ -1012,8 +424,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "codCcu", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoCodCcu(String value) {
@@ -1021,8 +437,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "codCli", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoCodCli(String value) {
@@ -1030,8 +450,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "codCul", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoCodCul(String value) {
@@ -1039,35 +463,51 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "codDep", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoCodDep(String value) {
-        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosCodDep_QNAME, String.class, EstoquesMovimentarEstoqueOutRetornoMovimento.class, value);
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueOutRetornoMovimentoCodDep_QNAME, String.class, EstoquesMovimentarEstoqueOutRetornoMovimento.class, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "codDer", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoCodDer(String value) {
-        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosDerivacoesCodDer_QNAME, String.class, EstoquesMovimentarEstoqueOutRetornoMovimento.class, value);
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueOutRetornoMovimentoCodDer_QNAME, String.class, EstoquesMovimentarEstoqueOutRetornoMovimento.class, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "codEmp", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoCodEmp(String value) {
-        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosCodEmp_QNAME, String.class, EstoquesMovimentarEstoqueOutRetornoMovimento.class, value);
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueOutRetornoMovimentoCodEmp_QNAME, String.class, EstoquesMovimentarEstoqueOutRetornoMovimento.class, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "codEnd", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoCodEnd(String value) {
@@ -1075,8 +515,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "codEtg", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoCodEtg(String value) {
@@ -1084,8 +528,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "codEtp", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoCodEtp(String value) {
@@ -1093,8 +541,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "codFab", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoCodFab(String value) {
@@ -1102,17 +554,25 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "codFil", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoCodFil(String value) {
-        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosCodFil_QNAME, String.class, EstoquesMovimentarEstoqueOutRetornoMovimento.class, value);
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueOutRetornoMovimentoCodFil_QNAME, String.class, EstoquesMovimentarEstoqueOutRetornoMovimento.class, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "codFor", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoCodFor(String value) {
@@ -1120,8 +580,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "codFpj", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoCodFpj(String value) {
@@ -1129,8 +593,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "codLig", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoCodLig(String value) {
@@ -1138,17 +606,25 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "codLot", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoCodLot(String value) {
-        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosLotesCodLot_QNAME, String.class, EstoquesMovimentarEstoqueOutRetornoMovimento.class, value);
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueOutRetornoMovimentoCodLot_QNAME, String.class, EstoquesMovimentarEstoqueOutRetornoMovimento.class, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "codMar", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoCodMar(String value) {
@@ -1156,8 +632,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "codPne", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoCodPne(String value) {
@@ -1165,17 +645,25 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "codPro", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoCodPro(String value) {
-        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosCodPro_QNAME, String.class, EstoquesMovimentarEstoqueOutRetornoMovimento.class, value);
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueOutRetornoMovimentoCodPro_QNAME, String.class, EstoquesMovimentarEstoqueOutRetornoMovimento.class, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "codSaf", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoCodSaf(String value) {
@@ -1183,8 +671,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "codSlt", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoCodSlt(String value) {
@@ -1192,8 +684,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "codSnf", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoCodSnf(String value) {
@@ -1201,8 +697,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "codTns", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoCodTns(String value) {
@@ -1210,8 +710,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "codTrm", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoCodTrm(String value) {
@@ -1219,8 +723,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "cotCm1", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoCotCm1(String value) {
@@ -1228,8 +736,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "cotCm2", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoCotCm2(String value) {
@@ -1237,8 +749,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "ctaFin", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoCtaFin(String value) {
@@ -1246,8 +762,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "ctaRed", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoCtaRed(String value) {
@@ -1255,8 +775,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "datCm1", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoDatCm1(String value) {
@@ -1264,8 +788,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "datCm2", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoDatCm2(String value) {
@@ -1273,8 +801,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "datDig", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoDatDig(String value) {
@@ -1282,8 +814,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "datEnt", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoDatEnt(String value) {
@@ -1291,8 +827,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "datFab", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoDatFab(String value) {
@@ -1300,8 +840,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "datFec", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoDatFec(String value) {
@@ -1309,8 +853,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "datInv", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoDatInv(String value) {
@@ -1318,8 +866,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "datMov", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoDatMov(String value) {
@@ -1327,8 +879,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "datTes", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoDatTes(String value) {
@@ -1336,8 +892,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "datVlt", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoDatVlt(String value) {
@@ -1345,8 +905,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "depTrf", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoDepTrf(String value) {
@@ -1354,8 +918,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "derTrf", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoDerTrf(String value) {
@@ -1363,8 +931,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "estCoc", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoEstCoc(String value) {
@@ -1372,8 +944,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "estCof", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoEstCof(String value) {
@@ -1381,8 +957,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "estEos", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoEstEos(String value) {
@@ -1390,8 +970,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "estMov", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoEstMov(String value) {
@@ -1399,8 +983,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "estNeg", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoEstNeg(String value) {
@@ -1408,8 +996,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "estVmv", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoEstVmv(String value) {
@@ -1417,8 +1009,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "estWms", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoEstWms(String value) {
@@ -1426,8 +1022,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "expWms", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoExpWms(String value) {
@@ -1435,8 +1035,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "filAne", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoFilAne(String value) {
@@ -1444,8 +1048,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "filCle", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoFilCle(String value) {
@@ -1453,8 +1061,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "filDep", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoFilDep(String value) {
@@ -1462,8 +1074,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "filNfc", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoFilNfc(String value) {
@@ -1471,8 +1087,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "filNfo", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoFilNfo(String value) {
@@ -1480,8 +1100,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "filOcp", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoFilOcp(String value) {
@@ -1489,8 +1113,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "filPed", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoFilPed(String value) {
@@ -1498,8 +1126,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "forNfo", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoForNfo(String value) {
@@ -1507,8 +1139,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "horDig", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoHorDig(String value) {
@@ -1516,8 +1152,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "horFab", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoHorFab(String value) {
@@ -1525,8 +1165,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "horVlt", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoHorVlt(String value) {
@@ -1534,8 +1178,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "icmAcf", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoIcmAcf(String value) {
@@ -1543,8 +1191,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "indFab", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoIndFab(String value) {
@@ -1552,8 +1204,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "lctFin", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoLctFin(String value) {
@@ -1561,8 +1217,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "lotDes", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoLotDes(String value) {
@@ -1570,8 +1230,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "lotFab", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoLotFab(String value) {
@@ -1579,8 +1243,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "motMvp", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoMotMvp(String value) {
@@ -1588,8 +1256,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "mskDep", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoMskDep(String value) {
@@ -1597,8 +1269,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "nivDep", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoNivDep(String value) {
@@ -1606,8 +1282,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "numAmo", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoNumAmo(String value) {
@@ -1615,8 +1295,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "numAne", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoNumAne(String value) {
@@ -1624,8 +1308,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "numAog", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoNumAog(String value) {
@@ -1633,8 +1321,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "numBol", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoNumBol(String value) {
@@ -1642,8 +1334,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "numCer", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoNumCer(String value) {
@@ -1651,8 +1347,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "numCle", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoNumCle(String value) {
@@ -1660,8 +1360,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "numDoc", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoNumDoc(String value) {
@@ -1669,8 +1373,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "numEme", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoNumEme(String value) {
@@ -1678,8 +1386,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "numLot", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoNumLot(String value) {
@@ -1687,8 +1399,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "numNfc", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoNumNfc(String value) {
@@ -1696,8 +1412,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "numNfo", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoNumNfo(String value) {
@@ -1705,8 +1425,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "numNfv", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoNumNfv(String value) {
@@ -1714,8 +1438,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "numOcp", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoNumOcp(String value) {
@@ -1723,8 +1451,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "numPed", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoNumPed(String value) {
@@ -1732,8 +1464,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "numPfa", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoNumPfa(String value) {
@@ -1741,8 +1477,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "numPrj", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoNumPrj(String value) {
@@ -1750,17 +1490,25 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "numSep", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoNumSep(String value) {
-        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosSeriesNumSep_QNAME, String.class, EstoquesMovimentarEstoqueOutRetornoMovimento.class, value);
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueOutRetornoMovimentoNumSep_QNAME, String.class, EstoquesMovimentarEstoqueOutRetornoMovimento.class, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "numTer", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoNumTer(String value) {
@@ -1768,8 +1516,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "obsMvp", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoObsMvp(String value) {
@@ -1777,8 +1529,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "oriOrp", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoOriOrp(String value) {
@@ -1786,8 +1542,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "perGer", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoPerGer(String value) {
@@ -1795,8 +1555,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "perPur", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoPerPur(String value) {
@@ -1804,8 +1568,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "perUmi", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoPerUmi(String value) {
@@ -1813,8 +1581,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "prmEst", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoPrmEst(String value) {
@@ -1822,8 +1594,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "prmIcm", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoPrmIcm(String value) {
@@ -1831,8 +1607,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "proFab", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoProFab(String value) {
@@ -1840,8 +1620,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "proTrf", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoProTrf(String value) {
@@ -1849,8 +1633,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "qtdAnt", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoQtdAnt(String value) {
@@ -1858,17 +1646,25 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "qtdEst", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoQtdEst(String value) {
-        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosLotesQtdEst_QNAME, String.class, EstoquesMovimentarEstoqueOutRetornoMovimento.class, value);
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueOutRetornoMovimentoQtdEst_QNAME, String.class, EstoquesMovimentarEstoqueOutRetornoMovimento.class, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "qtdMov", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoQtdMov(String value) {
@@ -1876,17 +1672,25 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "retorno", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoRetorno(String value) {
-        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosRetorno_QNAME, String.class, EstoquesMovimentarEstoqueOutRetornoMovimento.class, value);
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueOutRetornoMovimentoRetorno_QNAME, String.class, EstoquesMovimentarEstoqueOutRetornoMovimento.class, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "sepDes", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoSepDes(String value) {
@@ -1894,8 +1698,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "seqCmp", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoSeqCmp(String value) {
@@ -1903,8 +1711,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "seqEme", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoSeqEme(String value) {
@@ -1912,8 +1724,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "seqFec", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoSeqFec(String value) {
@@ -1921,8 +1737,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "seqIpc", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoSeqIpc(String value) {
@@ -1930,8 +1750,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "seqIpd", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoSeqIpd(String value) {
@@ -1939,8 +1763,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "seqIpo", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoSeqIpo(String value) {
@@ -1948,8 +1776,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "seqIpv", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoSeqIpv(String value) {
@@ -1957,8 +1789,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "seqMov", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoSeqMov(String value) {
@@ -1966,8 +1802,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "seqPes", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoSeqPes(String value) {
@@ -1975,8 +1815,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "seqTrf", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoSeqTrf(String value) {
@@ -1984,8 +1828,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "snfNfc", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoSnfNfc(String value) {
@@ -1993,8 +1841,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "snfNfo", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoSnfNfo(String value) {
@@ -2002,8 +1854,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "ultMdi", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoUltMdi(String value) {
@@ -2011,8 +1867,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "usuDig", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoUsuDig(String value) {
@@ -2020,8 +1880,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "usuRec", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoUsuRec(String value) {
@@ -2029,8 +1893,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "usuRes", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoUsuRes(String value) {
@@ -2038,8 +1906,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "utiRep", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoUtiRep(String value) {
@@ -2047,8 +1919,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "vlrAnt", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoVlrAnt(String value) {
@@ -2056,8 +1932,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "vlrCm1", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoVlrCm1(String value) {
@@ -2065,8 +1945,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "vlrCm2", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoVlrCm2(String value) {
@@ -2074,8 +1958,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "vlrDm1", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoVlrDm1(String value) {
@@ -2083,8 +1971,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "vlrDm2", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoVlrDm2(String value) {
@@ -2092,8 +1984,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "vlrDm3", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoVlrDm3(String value) {
@@ -2101,8 +1997,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "vlrDm4", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoVlrDm4(String value) {
@@ -2110,8 +2010,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "vlrDm5", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoVlrDm5(String value) {
@@ -2119,8 +2023,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "vlrDm6", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoVlrDm6(String value) {
@@ -2128,8 +2036,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "vlrEst", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoVlrEst(String value) {
@@ -2137,8 +2049,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "vlrIcm", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoVlrIcm(String value) {
@@ -2146,8 +2062,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "vlrMov", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoVlrMov(String value) {
@@ -2155,8 +2075,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "vltFab", scope = EstoquesMovimentarEstoqueOutRetornoMovimento.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutRetornoMovimentoVltFab(String value) {
@@ -2164,35 +2088,51 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "erroExecucao", scope = EstoquesMovimentarEstoqueOut.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutErroExecucao(String value) {
-        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutErroExecucao_QNAME, String.class, EstoquesMovimentarEstoqueOut.class, value);
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueOutErroExecucao_QNAME, String.class, EstoquesMovimentarEstoqueOut.class, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "mensagemRetorno", scope = EstoquesMovimentarEstoqueOut.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueOutMensagemRetorno(String value) {
-        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutMensagemRetorno_QNAME, String.class, EstoquesMovimentarEstoqueOut.class, value);
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueOutMensagemRetorno_QNAME, String.class, EstoquesMovimentarEstoqueOut.class, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "tipoRetorno", scope = EstoquesMovimentarEstoqueOut.class)
     public JAXBElement<Integer> createEstoquesMovimentarEstoqueOutTipoRetorno(Integer value) {
-        return new JAXBElement<Integer>(_EstoquesConsultarEstoqueOutTipoRetorno_QNAME, Integer.class, EstoquesMovimentarEstoqueOut.class, value);
+        return new JAXBElement<Integer>(_EstoquesMovimentarEstoqueOutTipoRetorno_QNAME, Integer.class, EstoquesMovimentarEstoqueOut.class, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "codCcu", scope = EstoquesMovimentarEstoqueInDadosGerais.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueInDadosGeraisCodCcu(String value) {
@@ -2200,8 +2140,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "codCli", scope = EstoquesMovimentarEstoqueInDadosGerais.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueInDadosGeraisCodCli(String value) {
@@ -2209,44 +2153,64 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "codDep", scope = EstoquesMovimentarEstoqueInDadosGerais.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueInDadosGeraisCodDep(String value) {
-        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosCodDep_QNAME, String.class, EstoquesMovimentarEstoqueInDadosGerais.class, value);
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueOutRetornoMovimentoCodDep_QNAME, String.class, EstoquesMovimentarEstoqueInDadosGerais.class, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "codDer", scope = EstoquesMovimentarEstoqueInDadosGerais.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueInDadosGeraisCodDer(String value) {
-        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosDerivacoesCodDer_QNAME, String.class, EstoquesMovimentarEstoqueInDadosGerais.class, value);
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueOutRetornoMovimentoCodDer_QNAME, String.class, EstoquesMovimentarEstoqueInDadosGerais.class, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "codEmp", scope = EstoquesMovimentarEstoqueInDadosGerais.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueInDadosGeraisCodEmp(String value) {
-        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosCodEmp_QNAME, String.class, EstoquesMovimentarEstoqueInDadosGerais.class, value);
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueOutRetornoMovimentoCodEmp_QNAME, String.class, EstoquesMovimentarEstoqueInDadosGerais.class, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "codFil", scope = EstoquesMovimentarEstoqueInDadosGerais.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueInDadosGeraisCodFil(String value) {
-        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosCodFil_QNAME, String.class, EstoquesMovimentarEstoqueInDadosGerais.class, value);
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueOutRetornoMovimentoCodFil_QNAME, String.class, EstoquesMovimentarEstoqueInDadosGerais.class, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "codFor", scope = EstoquesMovimentarEstoqueInDadosGerais.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueInDadosGeraisCodFor(String value) {
@@ -2254,8 +2218,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "codFpj", scope = EstoquesMovimentarEstoqueInDadosGerais.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueInDadosGeraisCodFpj(String value) {
@@ -2263,26 +2231,38 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "codLot", scope = EstoquesMovimentarEstoqueInDadosGerais.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueInDadosGeraisCodLot(String value) {
-        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosLotesCodLot_QNAME, String.class, EstoquesMovimentarEstoqueInDadosGerais.class, value);
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueOutRetornoMovimentoCodLot_QNAME, String.class, EstoquesMovimentarEstoqueInDadosGerais.class, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "codPro", scope = EstoquesMovimentarEstoqueInDadosGerais.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueInDadosGeraisCodPro(String value) {
-        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosCodPro_QNAME, String.class, EstoquesMovimentarEstoqueInDadosGerais.class, value);
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueOutRetornoMovimentoCodPro_QNAME, String.class, EstoquesMovimentarEstoqueInDadosGerais.class, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "codSnf", scope = EstoquesMovimentarEstoqueInDadosGerais.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueInDadosGeraisCodSnf(String value) {
@@ -2290,8 +2270,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "codTns", scope = EstoquesMovimentarEstoqueInDadosGerais.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueInDadosGeraisCodTns(String value) {
@@ -2299,8 +2283,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "ctaFin", scope = EstoquesMovimentarEstoqueInDadosGerais.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueInDadosGeraisCtaFin(String value) {
@@ -2308,8 +2296,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "ctaRed", scope = EstoquesMovimentarEstoqueInDadosGerais.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueInDadosGeraisCtaRed(String value) {
@@ -2317,8 +2309,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "datFab", scope = EstoquesMovimentarEstoqueInDadosGerais.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueInDadosGeraisDatFab(String value) {
@@ -2326,8 +2322,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "datMov", scope = EstoquesMovimentarEstoqueInDadosGerais.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueInDadosGeraisDatMov(String value) {
@@ -2335,8 +2335,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "datVlt", scope = EstoquesMovimentarEstoqueInDadosGerais.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueInDadosGeraisDatVlt(String value) {
@@ -2344,8 +2348,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "depTrf", scope = EstoquesMovimentarEstoqueInDadosGerais.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueInDadosGeraisDepTrf(String value) {
@@ -2353,8 +2361,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "derTrf", scope = EstoquesMovimentarEstoqueInDadosGerais.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueInDadosGeraisDerTrf(String value) {
@@ -2362,8 +2374,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "motMvp", scope = EstoquesMovimentarEstoqueInDadosGerais.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueInDadosGeraisMotMvp(String value) {
@@ -2371,8 +2387,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "numDoc", scope = EstoquesMovimentarEstoqueInDadosGerais.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueInDadosGeraisNumDoc(String value) {
@@ -2380,8 +2400,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "numNfv", scope = EstoquesMovimentarEstoqueInDadosGerais.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueInDadosGeraisNumNfv(String value) {
@@ -2389,8 +2413,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "numPrj", scope = EstoquesMovimentarEstoqueInDadosGerais.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueInDadosGeraisNumPrj(String value) {
@@ -2398,17 +2426,25 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "numSep", scope = EstoquesMovimentarEstoqueInDadosGerais.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueInDadosGeraisNumSep(String value) {
-        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosSeriesNumSep_QNAME, String.class, EstoquesMovimentarEstoqueInDadosGerais.class, value);
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueOutRetornoMovimentoNumSep_QNAME, String.class, EstoquesMovimentarEstoqueInDadosGerais.class, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "oriOrp", scope = EstoquesMovimentarEstoqueInDadosGerais.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueInDadosGeraisOriOrp(String value) {
@@ -2416,8 +2452,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "proTrf", scope = EstoquesMovimentarEstoqueInDadosGerais.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueInDadosGeraisProTrf(String value) {
@@ -2425,8 +2465,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "qtdMov", scope = EstoquesMovimentarEstoqueInDadosGerais.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueInDadosGeraisQtdMov(String value) {
@@ -2434,8 +2478,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "seqIpv", scope = EstoquesMovimentarEstoqueInDadosGerais.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueInDadosGeraisSeqIpv(String value) {
@@ -2443,8 +2491,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "usuRec", scope = EstoquesMovimentarEstoqueInDadosGerais.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueInDadosGeraisUsuRec(String value) {
@@ -2452,8 +2504,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "usuRes", scope = EstoquesMovimentarEstoqueInDadosGerais.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueInDadosGeraisUsuRes(String value) {
@@ -2461,8 +2517,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "vlrIcm", scope = EstoquesMovimentarEstoqueInDadosGerais.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueInDadosGeraisVlrIcm(String value) {
@@ -2470,8 +2530,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "vlrMov", scope = EstoquesMovimentarEstoqueInDadosGerais.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueInDadosGeraisVlrMov(String value) {
@@ -2479,21 +2543,1485 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "flowInstanceID", scope = EstoquesMovimentarEstoqueIn.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueInFlowInstanceID(String value) {
-        return new JAXBElement<String>(_EstoquesConsultarEstoqueInFlowInstanceID_QNAME, String.class, EstoquesMovimentarEstoqueIn.class, value);
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueInFlowInstanceID_QNAME, String.class, EstoquesMovimentarEstoqueIn.class, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "flowName", scope = EstoquesMovimentarEstoqueIn.class)
     public JAXBElement<String> createEstoquesMovimentarEstoqueInFlowName(String value) {
-        return new JAXBElement<String>(_EstoquesConsultarEstoqueInFlowName_QNAME, String.class, EstoquesMovimentarEstoqueIn.class, value);
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueInFlowName_QNAME, String.class, EstoquesMovimentarEstoqueIn.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "erroExecucao", scope = EstoquesFecharOut.class)
+    public JAXBElement<String> createEstoquesFecharOutErroExecucao(String value) {
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueOutErroExecucao_QNAME, String.class, EstoquesFecharOut.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "mensagemRetorno", scope = EstoquesFecharOut.class)
+    public JAXBElement<String> createEstoquesFecharOutMensagemRetorno(String value) {
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueOutMensagemRetorno_QNAME, String.class, EstoquesFecharOut.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "tipoRetorno", scope = EstoquesFecharOut.class)
+    public JAXBElement<Integer> createEstoquesFecharOutTipoRetorno(Integer value) {
+        return new JAXBElement<Integer>(_EstoquesMovimentarEstoqueOutTipoRetorno_QNAME, Integer.class, EstoquesFecharOut.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "ECodDep", scope = EstoquesFecharIn.class)
+    public JAXBElement<String> createEstoquesFecharInECodDep(String value) {
+        return new JAXBElement<String>(_EstoquesFecharInECodDep_QNAME, String.class, EstoquesFecharIn.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "ECodDer", scope = EstoquesFecharIn.class)
+    public JAXBElement<String> createEstoquesFecharInECodDer(String value) {
+        return new JAXBElement<String>(_EstoquesFecharInECodDer_QNAME, String.class, EstoquesFecharIn.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "ECodEmp", scope = EstoquesFecharIn.class)
+    public JAXBElement<String> createEstoquesFecharInECodEmp(String value) {
+        return new JAXBElement<String>(_EstoquesFecharInECodEmp_QNAME, String.class, EstoquesFecharIn.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "ECodFam", scope = EstoquesFecharIn.class)
+    public JAXBElement<String> createEstoquesFecharInECodFam(String value) {
+        return new JAXBElement<String>(_EstoquesFecharInECodFam_QNAME, String.class, EstoquesFecharIn.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "ECodFil", scope = EstoquesFecharIn.class)
+    public JAXBElement<String> createEstoquesFecharInECodFil(String value) {
+        return new JAXBElement<String>(_EstoquesFecharInECodFil_QNAME, String.class, EstoquesFecharIn.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "ECodOri", scope = EstoquesFecharIn.class)
+    public JAXBElement<String> createEstoquesFecharInECodOri(String value) {
+        return new JAXBElement<String>(_EstoquesFecharInECodOri_QNAME, String.class, EstoquesFecharIn.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "ECodPro", scope = EstoquesFecharIn.class)
+    public JAXBElement<String> createEstoquesFecharInECodPro(String value) {
+        return new JAXBElement<String>(_EstoquesFecharInECodPro_QNAME, String.class, EstoquesFecharIn.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "EDatFin", scope = EstoquesFecharIn.class)
+    public JAXBElement<String> createEstoquesFecharInEDatFin(String value) {
+        return new JAXBElement<String>(_EstoquesFecharInEDatFin_QNAME, String.class, EstoquesFecharIn.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "EDatIni", scope = EstoquesFecharIn.class)
+    public JAXBElement<String> createEstoquesFecharInEDatIni(String value) {
+        return new JAXBElement<String>(_EstoquesFecharInEDatIni_QNAME, String.class, EstoquesFecharIn.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "EFecOri", scope = EstoquesFecharIn.class)
+    public JAXBElement<String> createEstoquesFecharInEFecOri(String value) {
+        return new JAXBElement<String>(_EstoquesFecharInEFecOri_QNAME, String.class, EstoquesFecharIn.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "flowInstanceID", scope = EstoquesFecharIn.class)
+    public JAXBElement<String> createEstoquesFecharInFlowInstanceID(String value) {
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueInFlowInstanceID_QNAME, String.class, EstoquesFecharIn.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "flowName", scope = EstoquesFecharIn.class)
+    public JAXBElement<String> createEstoquesFecharInFlowName(String value) {
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueInFlowName_QNAME, String.class, EstoquesFecharIn.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "RBAtuSalMov", scope = EstoquesFecharIn.class)
+    public JAXBElement<String> createEstoquesFecharInRBAtuSalMov(String value) {
+        return new JAXBElement<String>(_EstoquesFecharInRBAtuSalMov_QNAME, String.class, EstoquesFecharIn.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "RBCorPriMov", scope = EstoquesFecharIn.class)
+    public JAXBElement<String> createEstoquesFecharInRBCorPriMov(String value) {
+        return new JAXBElement<String>(_EstoquesFecharInRBCorPriMov_QNAME, String.class, EstoquesFecharIn.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "RBDifSalAvi", scope = EstoquesFecharIn.class)
+    public JAXBElement<String> createEstoquesFecharInRBDifSalAvi(String value) {
+        return new JAXBElement<String>(_EstoquesFecharInRBDifSalAvi_QNAME, String.class, EstoquesFecharIn.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "RBDifSalCor", scope = EstoquesFecharIn.class)
+    public JAXBElement<String> createEstoquesFecharInRBDifSalCor(String value) {
+        return new JAXBElement<String>(_EstoquesFecharInRBDifSalCor_QNAME, String.class, EstoquesFecharIn.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "RBFecAtuEst", scope = EstoquesFecharIn.class)
+    public JAXBElement<String> createEstoquesFecharInRBFecAtuEst(String value) {
+        return new JAXBElement<String>(_EstoquesFecharInRBFecAtuEst_QNAME, String.class, EstoquesFecharIn.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "RBFecAtuFil", scope = EstoquesFecharIn.class)
+    public JAXBElement<String> createEstoquesFecharInRBFecAtuFil(String value) {
+        return new JAXBElement<String>(_EstoquesFecharInRBFecAtuFil_QNAME, String.class, EstoquesFecharIn.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "RBGerMovAce", scope = EstoquesFecharIn.class)
+    public JAXBElement<String> createEstoquesFecharInRBGerMovAce(String value) {
+        return new JAXBElement<String>(_EstoquesFecharInRBGerMovAce_QNAME, String.class, EstoquesFecharIn.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "RBMedEstPrm", scope = EstoquesFecharIn.class)
+    public JAXBElement<String> createEstoquesFecharInRBMedEstPrm(String value) {
+        return new JAXBElement<String>(_EstoquesFecharInRBMedEstPrm_QNAME, String.class, EstoquesFecharIn.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "RBMedEstPru", scope = EstoquesFecharIn.class)
+    public JAXBElement<String> createEstoquesFecharInRBMedEstPru(String value) {
+        return new JAXBElement<String>(_EstoquesFecharInRBMedEstPru_QNAME, String.class, EstoquesFecharIn.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "RBTipFecNor", scope = EstoquesFecharIn.class)
+    public JAXBElement<String> createEstoquesFecharInRBTipFecNor(String value) {
+        return new JAXBElement<String>(_EstoquesFecharInRBTipFecNor_QNAME, String.class, EstoquesFecharIn.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "RBTipFecOri", scope = EstoquesFecharIn.class)
+    public JAXBElement<String> createEstoquesFecharInRBTipFecOri(String value) {
+        return new JAXBElement<String>(_EstoquesFecharInRBTipFecOri_QNAME, String.class, EstoquesFecharIn.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "erroExecucao", scope = EstoquesTransferenciaProdutosOut.class)
+    public JAXBElement<String> createEstoquesTransferenciaProdutosOutErroExecucao(String value) {
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueOutErroExecucao_QNAME, String.class, EstoquesTransferenciaProdutosOut.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "mensagemRetorno", scope = EstoquesTransferenciaProdutosOut.class)
+    public JAXBElement<String> createEstoquesTransferenciaProdutosOutMensagemRetorno(String value) {
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueOutMensagemRetorno_QNAME, String.class, EstoquesTransferenciaProdutosOut.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "tipoRetorno", scope = EstoquesTransferenciaProdutosOut.class)
+    public JAXBElement<Integer> createEstoquesTransferenciaProdutosOutTipoRetorno(Integer value) {
+        return new JAXBElement<Integer>(_EstoquesMovimentarEstoqueOutTipoRetorno_QNAME, Integer.class, EstoquesTransferenciaProdutosOut.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "codLot", scope = EstoquesTransferenciaProdutosInTransferenciasEntreProdutosEntradaCodLot.class)
+    public JAXBElement<String> createEstoquesTransferenciaProdutosInTransferenciasEntreProdutosEntradaCodLotCodLot(String value) {
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueOutRetornoMovimentoCodLot_QNAME, String.class, EstoquesTransferenciaProdutosInTransferenciasEntreProdutosEntradaCodLot.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "datFab", scope = EstoquesTransferenciaProdutosInTransferenciasEntreProdutosEntradaCodLot.class)
+    public JAXBElement<String> createEstoquesTransferenciaProdutosInTransferenciasEntreProdutosEntradaCodLotDatFab(String value) {
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueOutRetornoMovimentoDatFab_QNAME, String.class, EstoquesTransferenciaProdutosInTransferenciasEntreProdutosEntradaCodLot.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "datVlt", scope = EstoquesTransferenciaProdutosInTransferenciasEntreProdutosEntradaCodLot.class)
+    public JAXBElement<String> createEstoquesTransferenciaProdutosInTransferenciasEntreProdutosEntradaCodLotDatVlt(String value) {
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueOutRetornoMovimentoDatVlt_QNAME, String.class, EstoquesTransferenciaProdutosInTransferenciasEntreProdutosEntradaCodLot.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "qtdEst", scope = EstoquesTransferenciaProdutosInTransferenciasEntreProdutosEntradaCodLot.class)
+    public JAXBElement<String> createEstoquesTransferenciaProdutosInTransferenciasEntreProdutosEntradaCodLotQtdEst(String value) {
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueOutRetornoMovimentoQtdEst_QNAME, String.class, EstoquesTransferenciaProdutosInTransferenciasEntreProdutosEntradaCodLot.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "codCcu", scope = EstoquesTransferenciaProdutosInTransferenciasEntreProdutosEntrada.class)
+    public JAXBElement<String> createEstoquesTransferenciaProdutosInTransferenciasEntreProdutosEntradaCodCcu(String value) {
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueOutRetornoMovimentoCodCcu_QNAME, String.class, EstoquesTransferenciaProdutosInTransferenciasEntreProdutosEntrada.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "codCli", scope = EstoquesTransferenciaProdutosInTransferenciasEntreProdutosEntrada.class)
+    public JAXBElement<Integer> createEstoquesTransferenciaProdutosInTransferenciasEntreProdutosEntradaCodCli(Integer value) {
+        return new JAXBElement<Integer>(_EstoquesMovimentarEstoqueOutRetornoMovimentoCodCli_QNAME, Integer.class, EstoquesTransferenciaProdutosInTransferenciasEntreProdutosEntrada.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "codDep", scope = EstoquesTransferenciaProdutosInTransferenciasEntreProdutosEntrada.class)
+    public JAXBElement<String> createEstoquesTransferenciaProdutosInTransferenciasEntreProdutosEntradaCodDep(String value) {
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueOutRetornoMovimentoCodDep_QNAME, String.class, EstoquesTransferenciaProdutosInTransferenciasEntreProdutosEntrada.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "codDer", scope = EstoquesTransferenciaProdutosInTransferenciasEntreProdutosEntrada.class)
+    public JAXBElement<String> createEstoquesTransferenciaProdutosInTransferenciasEntreProdutosEntradaCodDer(String value) {
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueOutRetornoMovimentoCodDer_QNAME, String.class, EstoquesTransferenciaProdutosInTransferenciasEntreProdutosEntrada.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "codFor", scope = EstoquesTransferenciaProdutosInTransferenciasEntreProdutosEntrada.class)
+    public JAXBElement<Integer> createEstoquesTransferenciaProdutosInTransferenciasEntreProdutosEntradaCodFor(Integer value) {
+        return new JAXBElement<Integer>(_EstoquesMovimentarEstoqueOutRetornoMovimentoCodFor_QNAME, Integer.class, EstoquesTransferenciaProdutosInTransferenciasEntreProdutosEntrada.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "codPro", scope = EstoquesTransferenciaProdutosInTransferenciasEntreProdutosEntrada.class)
+    public JAXBElement<String> createEstoquesTransferenciaProdutosInTransferenciasEntreProdutosEntradaCodPro(String value) {
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueOutRetornoMovimentoCodPro_QNAME, String.class, EstoquesTransferenciaProdutosInTransferenciasEntreProdutosEntrada.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "ctaFin", scope = EstoquesTransferenciaProdutosInTransferenciasEntreProdutosEntrada.class)
+    public JAXBElement<Integer> createEstoquesTransferenciaProdutosInTransferenciasEntreProdutosEntradaCtaFin(Integer value) {
+        return new JAXBElement<Integer>(_EstoquesMovimentarEstoqueOutRetornoMovimentoCtaFin_QNAME, Integer.class, EstoquesTransferenciaProdutosInTransferenciasEntreProdutosEntrada.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "ctaRed", scope = EstoquesTransferenciaProdutosInTransferenciasEntreProdutosEntrada.class)
+    public JAXBElement<Integer> createEstoquesTransferenciaProdutosInTransferenciasEntreProdutosEntradaCtaRed(Integer value) {
+        return new JAXBElement<Integer>(_EstoquesMovimentarEstoqueOutRetornoMovimentoCtaRed_QNAME, Integer.class, EstoquesTransferenciaProdutosInTransferenciasEntreProdutosEntrada.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "numDoc", scope = EstoquesTransferenciaProdutosInTransferenciasEntreProdutosEntrada.class)
+    public JAXBElement<Integer> createEstoquesTransferenciaProdutosInTransferenciasEntreProdutosEntradaNumDoc(Integer value) {
+        return new JAXBElement<Integer>(_EstoquesMovimentarEstoqueOutRetornoMovimentoNumDoc_QNAME, Integer.class, EstoquesTransferenciaProdutosInTransferenciasEntreProdutosEntrada.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "qtdMov", scope = EstoquesTransferenciaProdutosInTransferenciasEntreProdutosEntrada.class)
+    public JAXBElement<String> createEstoquesTransferenciaProdutosInTransferenciasEntreProdutosEntradaQtdMov(String value) {
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueOutRetornoMovimentoQtdMov_QNAME, String.class, EstoquesTransferenciaProdutosInTransferenciasEntreProdutosEntrada.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "uniMed", scope = EstoquesTransferenciaProdutosInTransferenciasEntreProdutosEntrada.class)
+    public JAXBElement<String> createEstoquesTransferenciaProdutosInTransferenciasEntreProdutosEntradaUniMed(String value) {
+        return new JAXBElement<String>(_EstoquesTransferenciaProdutosInTransferenciasEntreProdutosEntradaUniMed_QNAME, String.class, EstoquesTransferenciaProdutosInTransferenciasEntreProdutosEntrada.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "vlrMov", scope = EstoquesTransferenciaProdutosInTransferenciasEntreProdutosEntrada.class)
+    public JAXBElement<String> createEstoquesTransferenciaProdutosInTransferenciasEntreProdutosEntradaVlrMov(String value) {
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueOutRetornoMovimentoVlrMov_QNAME, String.class, EstoquesTransferenciaProdutosInTransferenciasEntreProdutosEntrada.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "codLot", scope = EstoquesTransferenciaProdutosInTransferenciaEntreProdutosSaidaCodLot.class)
+    public JAXBElement<String> createEstoquesTransferenciaProdutosInTransferenciaEntreProdutosSaidaCodLotCodLot(String value) {
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueOutRetornoMovimentoCodLot_QNAME, String.class, EstoquesTransferenciaProdutosInTransferenciaEntreProdutosSaidaCodLot.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "qtdEst", scope = EstoquesTransferenciaProdutosInTransferenciaEntreProdutosSaidaCodLot.class)
+    public JAXBElement<String> createEstoquesTransferenciaProdutosInTransferenciaEntreProdutosSaidaCodLotQtdEst(String value) {
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueOutRetornoMovimentoQtdEst_QNAME, String.class, EstoquesTransferenciaProdutosInTransferenciaEntreProdutosSaidaCodLot.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "codCcu", scope = EstoquesTransferenciaProdutosInTransferenciaEntreProdutosSaida.class)
+    public JAXBElement<String> createEstoquesTransferenciaProdutosInTransferenciaEntreProdutosSaidaCodCcu(String value) {
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueOutRetornoMovimentoCodCcu_QNAME, String.class, EstoquesTransferenciaProdutosInTransferenciaEntreProdutosSaida.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "codCli", scope = EstoquesTransferenciaProdutosInTransferenciaEntreProdutosSaida.class)
+    public JAXBElement<Integer> createEstoquesTransferenciaProdutosInTransferenciaEntreProdutosSaidaCodCli(Integer value) {
+        return new JAXBElement<Integer>(_EstoquesMovimentarEstoqueOutRetornoMovimentoCodCli_QNAME, Integer.class, EstoquesTransferenciaProdutosInTransferenciaEntreProdutosSaida.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "codDep", scope = EstoquesTransferenciaProdutosInTransferenciaEntreProdutosSaida.class)
+    public JAXBElement<String> createEstoquesTransferenciaProdutosInTransferenciaEntreProdutosSaidaCodDep(String value) {
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueOutRetornoMovimentoCodDep_QNAME, String.class, EstoquesTransferenciaProdutosInTransferenciaEntreProdutosSaida.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "codDer", scope = EstoquesTransferenciaProdutosInTransferenciaEntreProdutosSaida.class)
+    public JAXBElement<String> createEstoquesTransferenciaProdutosInTransferenciaEntreProdutosSaidaCodDer(String value) {
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueOutRetornoMovimentoCodDer_QNAME, String.class, EstoquesTransferenciaProdutosInTransferenciaEntreProdutosSaida.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "codEmp", scope = EstoquesTransferenciaProdutosInTransferenciaEntreProdutosSaida.class)
+    public JAXBElement<String> createEstoquesTransferenciaProdutosInTransferenciaEntreProdutosSaidaCodEmp(String value) {
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueOutRetornoMovimentoCodEmp_QNAME, String.class, EstoquesTransferenciaProdutosInTransferenciaEntreProdutosSaida.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "codFil", scope = EstoquesTransferenciaProdutosInTransferenciaEntreProdutosSaida.class)
+    public JAXBElement<String> createEstoquesTransferenciaProdutosInTransferenciaEntreProdutosSaidaCodFil(String value) {
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueOutRetornoMovimentoCodFil_QNAME, String.class, EstoquesTransferenciaProdutosInTransferenciaEntreProdutosSaida.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "codFor", scope = EstoquesTransferenciaProdutosInTransferenciaEntreProdutosSaida.class)
+    public JAXBElement<Integer> createEstoquesTransferenciaProdutosInTransferenciaEntreProdutosSaidaCodFor(Integer value) {
+        return new JAXBElement<Integer>(_EstoquesMovimentarEstoqueOutRetornoMovimentoCodFor_QNAME, Integer.class, EstoquesTransferenciaProdutosInTransferenciaEntreProdutosSaida.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "codPro", scope = EstoquesTransferenciaProdutosInTransferenciaEntreProdutosSaida.class)
+    public JAXBElement<String> createEstoquesTransferenciaProdutosInTransferenciaEntreProdutosSaidaCodPro(String value) {
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueOutRetornoMovimentoCodPro_QNAME, String.class, EstoquesTransferenciaProdutosInTransferenciaEntreProdutosSaida.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "codTns", scope = EstoquesTransferenciaProdutosInTransferenciaEntreProdutosSaida.class)
+    public JAXBElement<String> createEstoquesTransferenciaProdutosInTransferenciaEntreProdutosSaidaCodTns(String value) {
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueOutRetornoMovimentoCodTns_QNAME, String.class, EstoquesTransferenciaProdutosInTransferenciaEntreProdutosSaida.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "ctaFin", scope = EstoquesTransferenciaProdutosInTransferenciaEntreProdutosSaida.class)
+    public JAXBElement<Integer> createEstoquesTransferenciaProdutosInTransferenciaEntreProdutosSaidaCtaFin(Integer value) {
+        return new JAXBElement<Integer>(_EstoquesMovimentarEstoqueOutRetornoMovimentoCtaFin_QNAME, Integer.class, EstoquesTransferenciaProdutosInTransferenciaEntreProdutosSaida.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "ctaRed", scope = EstoquesTransferenciaProdutosInTransferenciaEntreProdutosSaida.class)
+    public JAXBElement<Integer> createEstoquesTransferenciaProdutosInTransferenciaEntreProdutosSaidaCtaRed(Integer value) {
+        return new JAXBElement<Integer>(_EstoquesMovimentarEstoqueOutRetornoMovimentoCtaRed_QNAME, Integer.class, EstoquesTransferenciaProdutosInTransferenciaEntreProdutosSaida.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "datMov", scope = EstoquesTransferenciaProdutosInTransferenciaEntreProdutosSaida.class)
+    public JAXBElement<String> createEstoquesTransferenciaProdutosInTransferenciaEntreProdutosSaidaDatMov(String value) {
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueOutRetornoMovimentoDatMov_QNAME, String.class, EstoquesTransferenciaProdutosInTransferenciaEntreProdutosSaida.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "numDoc", scope = EstoquesTransferenciaProdutosInTransferenciaEntreProdutosSaida.class)
+    public JAXBElement<Integer> createEstoquesTransferenciaProdutosInTransferenciaEntreProdutosSaidaNumDoc(Integer value) {
+        return new JAXBElement<Integer>(_EstoquesMovimentarEstoqueOutRetornoMovimentoNumDoc_QNAME, Integer.class, EstoquesTransferenciaProdutosInTransferenciaEntreProdutosSaida.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "qtdMov", scope = EstoquesTransferenciaProdutosInTransferenciaEntreProdutosSaida.class)
+    public JAXBElement<String> createEstoquesTransferenciaProdutosInTransferenciaEntreProdutosSaidaQtdMov(String value) {
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueOutRetornoMovimentoQtdMov_QNAME, String.class, EstoquesTransferenciaProdutosInTransferenciaEntreProdutosSaida.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "uniMed", scope = EstoquesTransferenciaProdutosInTransferenciaEntreProdutosSaida.class)
+    public JAXBElement<String> createEstoquesTransferenciaProdutosInTransferenciaEntreProdutosSaidaUniMed(String value) {
+        return new JAXBElement<String>(_EstoquesTransferenciaProdutosInTransferenciasEntreProdutosEntradaUniMed_QNAME, String.class, EstoquesTransferenciaProdutosInTransferenciaEntreProdutosSaida.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "vlrMov", scope = EstoquesTransferenciaProdutosInTransferenciaEntreProdutosSaida.class)
+    public JAXBElement<String> createEstoquesTransferenciaProdutosInTransferenciaEntreProdutosSaidaVlrMov(String value) {
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueOutRetornoMovimentoVlrMov_QNAME, String.class, EstoquesTransferenciaProdutosInTransferenciaEntreProdutosSaida.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "flowInstanceID", scope = EstoquesTransferenciaProdutosIn.class)
+    public JAXBElement<String> createEstoquesTransferenciaProdutosInFlowInstanceID(String value) {
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueInFlowInstanceID_QNAME, String.class, EstoquesTransferenciaProdutosIn.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "flowName", scope = EstoquesTransferenciaProdutosIn.class)
+    public JAXBElement<String> createEstoquesTransferenciaProdutosInFlowName(String value) {
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueInFlowName_QNAME, String.class, EstoquesTransferenciaProdutosIn.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "numSep", scope = EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosSeries.class)
+    public JAXBElement<String> createEstoquesConsultarEstoqueOutProdutosDerivacoesDepositosSeriesNumSep(String value) {
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueOutRetornoMovimentoNumSep_QNAME, String.class, EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosSeries.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "qtdDis", scope = EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosSeries.class)
+    public JAXBElement<String> createEstoquesConsultarEstoqueOutProdutosDerivacoesDepositosSeriesQtdDis(String value) {
+        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosSeriesQtdDis_QNAME, String.class, EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosSeries.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "codLot", scope = EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosLotes.class)
+    public JAXBElement<String> createEstoquesConsultarEstoqueOutProdutosDerivacoesDepositosLotesCodLot(String value) {
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueOutRetornoMovimentoCodLot_QNAME, String.class, EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosLotes.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "qtdBlo", scope = EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosLotes.class)
+    public JAXBElement<String> createEstoquesConsultarEstoqueOutProdutosDerivacoesDepositosLotesQtdBlo(String value) {
+        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosLotesQtdBlo_QNAME, String.class, EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosLotes.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "qtdDis", scope = EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosLotes.class)
+    public JAXBElement<String> createEstoquesConsultarEstoqueOutProdutosDerivacoesDepositosLotesQtdDis(String value) {
+        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosSeriesQtdDis_QNAME, String.class, EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosLotes.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "qtdEst", scope = EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosLotes.class)
+    public JAXBElement<String> createEstoquesConsultarEstoqueOutProdutosDerivacoesDepositosLotesQtdEst(String value) {
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueOutRetornoMovimentoQtdEst_QNAME, String.class, EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosLotes.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "qtdRes", scope = EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosLotes.class)
+    public JAXBElement<String> createEstoquesConsultarEstoqueOutProdutosDerivacoesDepositosLotesQtdRes(String value) {
+        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosLotesQtdRes_QNAME, String.class, EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosLotes.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "codDep", scope = EstoquesConsultarEstoqueOutProdutosDerivacoesDepositos.class)
+    public JAXBElement<String> createEstoquesConsultarEstoqueOutProdutosDerivacoesDepositosCodDep(String value) {
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueOutRetornoMovimentoCodDep_QNAME, String.class, EstoquesConsultarEstoqueOutProdutosDerivacoesDepositos.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "codFil", scope = EstoquesConsultarEstoqueOutProdutosDerivacoesDepositos.class)
+    public JAXBElement<Integer> createEstoquesConsultarEstoqueOutProdutosDerivacoesDepositosCodFil(Integer value) {
+        return new JAXBElement<Integer>(_EstoquesMovimentarEstoqueOutRetornoMovimentoCodFil_QNAME, Integer.class, EstoquesConsultarEstoqueOutProdutosDerivacoesDepositos.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "numCgc", scope = EstoquesConsultarEstoqueOutProdutosDerivacoesDepositos.class)
+    public JAXBElement<String> createEstoquesConsultarEstoqueOutProdutosDerivacoesDepositosNumCgc(String value) {
+        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosNumCgc_QNAME, String.class, EstoquesConsultarEstoqueOutProdutosDerivacoesDepositos.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "qtdBlo", scope = EstoquesConsultarEstoqueOutProdutosDerivacoesDepositos.class)
+    public JAXBElement<String> createEstoquesConsultarEstoqueOutProdutosDerivacoesDepositosQtdBlo(String value) {
+        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosLotesQtdBlo_QNAME, String.class, EstoquesConsultarEstoqueOutProdutosDerivacoesDepositos.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "qtdDis", scope = EstoquesConsultarEstoqueOutProdutosDerivacoesDepositos.class)
+    public JAXBElement<String> createEstoquesConsultarEstoqueOutProdutosDerivacoesDepositosQtdDis(String value) {
+        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosSeriesQtdDis_QNAME, String.class, EstoquesConsultarEstoqueOutProdutosDerivacoesDepositos.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "qtdEst", scope = EstoquesConsultarEstoqueOutProdutosDerivacoesDepositos.class)
+    public JAXBElement<String> createEstoquesConsultarEstoqueOutProdutosDerivacoesDepositosQtdEst(String value) {
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueOutRetornoMovimentoQtdEst_QNAME, String.class, EstoquesConsultarEstoqueOutProdutosDerivacoesDepositos.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "qtdRes", scope = EstoquesConsultarEstoqueOutProdutosDerivacoesDepositos.class)
+    public JAXBElement<String> createEstoquesConsultarEstoqueOutProdutosDerivacoesDepositosQtdRes(String value) {
+        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosLotesQtdRes_QNAME, String.class, EstoquesConsultarEstoqueOutProdutosDerivacoesDepositos.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "codDer", scope = EstoquesConsultarEstoqueOutProdutosDerivacoes.class)
+    public JAXBElement<String> createEstoquesConsultarEstoqueOutProdutosDerivacoesCodDer(String value) {
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueOutRetornoMovimentoCodDer_QNAME, String.class, EstoquesConsultarEstoqueOutProdutosDerivacoes.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "codPdv", scope = EstoquesConsultarEstoqueOutProdutosDerivacoes.class)
+    public JAXBElement<String> createEstoquesConsultarEstoqueOutProdutosDerivacoesCodPdv(String value) {
+        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosDerivacoesCodPdv_QNAME, String.class, EstoquesConsultarEstoqueOutProdutosDerivacoes.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link Double }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Double }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "qtdBlo", scope = EstoquesConsultarEstoqueOutProdutosDerivacoes.class)
+    public JAXBElement<Double> createEstoquesConsultarEstoqueOutProdutosDerivacoesQtdBlo(Double value) {
+        return new JAXBElement<Double>(_EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosLotesQtdBlo_QNAME, Double.class, EstoquesConsultarEstoqueOutProdutosDerivacoes.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "qtdDis", scope = EstoquesConsultarEstoqueOutProdutosDerivacoes.class)
+    public JAXBElement<String> createEstoquesConsultarEstoqueOutProdutosDerivacoesQtdDis(String value) {
+        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosSeriesQtdDis_QNAME, String.class, EstoquesConsultarEstoqueOutProdutosDerivacoes.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link Double }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Double }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "qtdEst", scope = EstoquesConsultarEstoqueOutProdutosDerivacoes.class)
+    public JAXBElement<Double> createEstoquesConsultarEstoqueOutProdutosDerivacoesQtdEst(Double value) {
+        return new JAXBElement<Double>(_EstoquesMovimentarEstoqueOutRetornoMovimentoQtdEst_QNAME, Double.class, EstoquesConsultarEstoqueOutProdutosDerivacoes.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link Double }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Double }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "qtdRes", scope = EstoquesConsultarEstoqueOutProdutosDerivacoes.class)
+    public JAXBElement<Double> createEstoquesConsultarEstoqueOutProdutosDerivacoesQtdRes(Double value) {
+        return new JAXBElement<Double>(_EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosLotesQtdRes_QNAME, Double.class, EstoquesConsultarEstoqueOutProdutosDerivacoes.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "codDep", scope = EstoquesConsultarEstoqueOutProdutos.class)
+    public JAXBElement<String> createEstoquesConsultarEstoqueOutProdutosCodDep(String value) {
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueOutRetornoMovimentoCodDep_QNAME, String.class, EstoquesConsultarEstoqueOutProdutos.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "codDer", scope = EstoquesConsultarEstoqueOutProdutos.class)
+    public JAXBElement<String> createEstoquesConsultarEstoqueOutProdutosCodDer(String value) {
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueOutRetornoMovimentoCodDer_QNAME, String.class, EstoquesConsultarEstoqueOutProdutos.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "codEmp", scope = EstoquesConsultarEstoqueOutProdutos.class)
+    public JAXBElement<Integer> createEstoquesConsultarEstoqueOutProdutosCodEmp(Integer value) {
+        return new JAXBElement<Integer>(_EstoquesMovimentarEstoqueOutRetornoMovimentoCodEmp_QNAME, Integer.class, EstoquesConsultarEstoqueOutProdutos.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "codFil", scope = EstoquesConsultarEstoqueOutProdutos.class)
+    public JAXBElement<Integer> createEstoquesConsultarEstoqueOutProdutosCodFil(Integer value) {
+        return new JAXBElement<Integer>(_EstoquesMovimentarEstoqueOutRetornoMovimentoCodFil_QNAME, Integer.class, EstoquesConsultarEstoqueOutProdutos.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "codPdv", scope = EstoquesConsultarEstoqueOutProdutos.class)
+    public JAXBElement<String> createEstoquesConsultarEstoqueOutProdutosCodPdv(String value) {
+        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosDerivacoesCodPdv_QNAME, String.class, EstoquesConsultarEstoqueOutProdutos.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "codPro", scope = EstoquesConsultarEstoqueOutProdutos.class)
+    public JAXBElement<String> createEstoquesConsultarEstoqueOutProdutosCodPro(String value) {
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueOutRetornoMovimentoCodPro_QNAME, String.class, EstoquesConsultarEstoqueOutProdutos.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "numCgc", scope = EstoquesConsultarEstoqueOutProdutos.class)
+    public JAXBElement<String> createEstoquesConsultarEstoqueOutProdutosNumCgc(String value) {
+        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosNumCgc_QNAME, String.class, EstoquesConsultarEstoqueOutProdutos.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "qtdBlo", scope = EstoquesConsultarEstoqueOutProdutos.class)
+    public JAXBElement<String> createEstoquesConsultarEstoqueOutProdutosQtdBlo(String value) {
+        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosLotesQtdBlo_QNAME, String.class, EstoquesConsultarEstoqueOutProdutos.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "qtdDis", scope = EstoquesConsultarEstoqueOutProdutos.class)
+    public JAXBElement<String> createEstoquesConsultarEstoqueOutProdutosQtdDis(String value) {
+        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosSeriesQtdDis_QNAME, String.class, EstoquesConsultarEstoqueOutProdutos.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "qtdEst", scope = EstoquesConsultarEstoqueOutProdutos.class)
+    public JAXBElement<String> createEstoquesConsultarEstoqueOutProdutosQtdEst(String value) {
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueOutRetornoMovimentoQtdEst_QNAME, String.class, EstoquesConsultarEstoqueOutProdutos.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "qtdRes", scope = EstoquesConsultarEstoqueOutProdutos.class)
+    public JAXBElement<String> createEstoquesConsultarEstoqueOutProdutosQtdRes(String value) {
+        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosLotesQtdRes_QNAME, String.class, EstoquesConsultarEstoqueOutProdutos.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "retorno", scope = EstoquesConsultarEstoqueOutProdutos.class)
+    public JAXBElement<String> createEstoquesConsultarEstoqueOutProdutosRetorno(String value) {
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueOutRetornoMovimentoRetorno_QNAME, String.class, EstoquesConsultarEstoqueOutProdutos.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "erroExecucao", scope = EstoquesConsultarEstoqueOut.class)
+    public JAXBElement<String> createEstoquesConsultarEstoqueOutErroExecucao(String value) {
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueOutErroExecucao_QNAME, String.class, EstoquesConsultarEstoqueOut.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "mensagemRetorno", scope = EstoquesConsultarEstoqueOut.class)
+    public JAXBElement<String> createEstoquesConsultarEstoqueOutMensagemRetorno(String value) {
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueOutMensagemRetorno_QNAME, String.class, EstoquesConsultarEstoqueOut.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "tipoRetorno", scope = EstoquesConsultarEstoqueOut.class)
+    public JAXBElement<Integer> createEstoquesConsultarEstoqueOutTipoRetorno(Integer value) {
+        return new JAXBElement<Integer>(_EstoquesMovimentarEstoqueOutTipoRetorno_QNAME, Integer.class, EstoquesConsultarEstoqueOut.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "codDep", scope = EstoquesConsultarEstoqueInEntrada.class)
+    public JAXBElement<String> createEstoquesConsultarEstoqueInEntradaCodDep(String value) {
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueOutRetornoMovimentoCodDep_QNAME, String.class, EstoquesConsultarEstoqueInEntrada.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "codDer", scope = EstoquesConsultarEstoqueInEntrada.class)
+    public JAXBElement<String> createEstoquesConsultarEstoqueInEntradaCodDer(String value) {
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueOutRetornoMovimentoCodDer_QNAME, String.class, EstoquesConsultarEstoqueInEntrada.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "codEmp", scope = EstoquesConsultarEstoqueInEntrada.class)
+    public JAXBElement<String> createEstoquesConsultarEstoqueInEntradaCodEmp(String value) {
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueOutRetornoMovimentoCodEmp_QNAME, String.class, EstoquesConsultarEstoqueInEntrada.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "codFil", scope = EstoquesConsultarEstoqueInEntrada.class)
+    public JAXBElement<String> createEstoquesConsultarEstoqueInEntradaCodFil(String value) {
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueOutRetornoMovimentoCodFil_QNAME, String.class, EstoquesConsultarEstoqueInEntrada.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "codLot", scope = EstoquesConsultarEstoqueInEntrada.class)
+    public JAXBElement<String> createEstoquesConsultarEstoqueInEntradaCodLot(String value) {
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueOutRetornoMovimentoCodLot_QNAME, String.class, EstoquesConsultarEstoqueInEntrada.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "codPdv", scope = EstoquesConsultarEstoqueInEntrada.class)
+    public JAXBElement<String> createEstoquesConsultarEstoqueInEntradaCodPdv(String value) {
+        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosDerivacoesCodPdv_QNAME, String.class, EstoquesConsultarEstoqueInEntrada.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "codPro", scope = EstoquesConsultarEstoqueInEntrada.class)
+    public JAXBElement<String> createEstoquesConsultarEstoqueInEntradaCodPro(String value) {
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueOutRetornoMovimentoCodPro_QNAME, String.class, EstoquesConsultarEstoqueInEntrada.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "numCgc", scope = EstoquesConsultarEstoqueInEntrada.class)
+    public JAXBElement<String> createEstoquesConsultarEstoqueInEntradaNumCgc(String value) {
+        return new JAXBElement<String>(_EstoquesConsultarEstoqueOutProdutosDerivacoesDepositosNumCgc_QNAME, String.class, EstoquesConsultarEstoqueInEntrada.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "numSep", scope = EstoquesConsultarEstoqueInEntrada.class)
+    public JAXBElement<String> createEstoquesConsultarEstoqueInEntradaNumSep(String value) {
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueOutRetornoMovimentoNumSep_QNAME, String.class, EstoquesConsultarEstoqueInEntrada.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "dataBuild", scope = EstoquesConsultarEstoqueIn.class)
+    public JAXBElement<String> createEstoquesConsultarEstoqueInDataBuild(String value) {
+        return new JAXBElement<String>(_EstoquesConsultarEstoqueInDataBuild_QNAME, String.class, EstoquesConsultarEstoqueIn.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "flowInstanceID", scope = EstoquesConsultarEstoqueIn.class)
+    public JAXBElement<String> createEstoquesConsultarEstoqueInFlowInstanceID(String value) {
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueInFlowInstanceID_QNAME, String.class, EstoquesConsultarEstoqueIn.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "", name = "flowName", scope = EstoquesConsultarEstoqueIn.class)
+    public JAXBElement<String> createEstoquesConsultarEstoqueInFlowName(String value) {
+        return new JAXBElement<String>(_EstoquesMovimentarEstoqueInFlowName_QNAME, String.class, EstoquesConsultarEstoqueIn.class, value);
     }
 
 }

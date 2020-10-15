@@ -4,15 +4,6 @@
 <xsd:import namespace="http://services.senior.com.br" schemaLocation="http://sapiensmid:80/g5-senior-services/sapiens_Synccom_senior_g5_co_mcm_est_estoques?xsd=1"/>
 </xsd:schema>
 </types>
-<message name="ConsultarEstoque">
-<part name="user" type="xsd:string"/>
-<part name="password" type="xsd:string"/>
-<part name="encryption" type="xsd:int"/>
-<part name="parameters" type="tns:estoquesConsultarEstoqueIn"/>
-</message>
-<message name="ConsultarEstoqueResponse">
-<part name="result" type="tns:estoquesConsultarEstoqueOut"/>
-</message>
 <message name="MovimentarEstoque">
 <part name="user" type="xsd:string"/>
 <part name="password" type="xsd:string"/>
@@ -21,6 +12,15 @@
 </message>
 <message name="MovimentarEstoqueResponse">
 <part name="result" type="tns:estoquesMovimentarEstoqueOut"/>
+</message>
+<message name="TransferenciaProdutos">
+<part name="user" type="xsd:string"/>
+<part name="password" type="xsd:string"/>
+<part name="encryption" type="xsd:int"/>
+<part name="parameters" type="tns:estoquesTransferenciaProdutosIn"/>
+</message>
+<message name="TransferenciaProdutosResponse">
+<part name="result" type="tns:estoquesTransferenciaProdutosOut"/>
 </message>
 <message name="Fechar">
 <part name="user" type="xsd:string"/>
@@ -31,31 +31,35 @@
 <message name="FecharResponse">
 <part name="result" type="tns:estoquesFecharOut"/>
 </message>
+<message name="ConsultarEstoque">
+<part name="user" type="xsd:string"/>
+<part name="password" type="xsd:string"/>
+<part name="encryption" type="xsd:int"/>
+<part name="parameters" type="tns:estoquesConsultarEstoqueIn"/>
+</message>
+<message name="ConsultarEstoqueResponse">
+<part name="result" type="tns:estoquesConsultarEstoqueOut"/>
+</message>
 <portType name="sapiens_Synccom_senior_g5_co_mcm_est_estoques">
-<operation name="ConsultarEstoque" parameterOrder="user password encryption parameters">
-<input wsam:Action="http://services.senior.com.br/sapiens_Synccom_senior_g5_co_mcm_est_estoques/ConsultarEstoqueRequest" message="tns:ConsultarEstoque"/>
-<output wsam:Action="http://services.senior.com.br/sapiens_Synccom_senior_g5_co_mcm_est_estoques/ConsultarEstoqueResponse" message="tns:ConsultarEstoqueResponse"/>
-</operation>
 <operation name="MovimentarEstoque" parameterOrder="user password encryption parameters">
 <input wsam:Action="http://services.senior.com.br/sapiens_Synccom_senior_g5_co_mcm_est_estoques/MovimentarEstoqueRequest" message="tns:MovimentarEstoque"/>
 <output wsam:Action="http://services.senior.com.br/sapiens_Synccom_senior_g5_co_mcm_est_estoques/MovimentarEstoqueResponse" message="tns:MovimentarEstoqueResponse"/>
+</operation>
+<operation name="TransferenciaProdutos" parameterOrder="user password encryption parameters">
+<input wsam:Action="http://services.senior.com.br/sapiens_Synccom_senior_g5_co_mcm_est_estoques/TransferenciaProdutosRequest" message="tns:TransferenciaProdutos"/>
+<output wsam:Action="http://services.senior.com.br/sapiens_Synccom_senior_g5_co_mcm_est_estoques/TransferenciaProdutosResponse" message="tns:TransferenciaProdutosResponse"/>
 </operation>
 <operation name="Fechar" parameterOrder="user password encryption parameters">
 <input wsam:Action="http://services.senior.com.br/sapiens_Synccom_senior_g5_co_mcm_est_estoques/FecharRequest" message="tns:Fechar"/>
 <output wsam:Action="http://services.senior.com.br/sapiens_Synccom_senior_g5_co_mcm_est_estoques/FecharResponse" message="tns:FecharResponse"/>
 </operation>
+<operation name="ConsultarEstoque" parameterOrder="user password encryption parameters">
+<input wsam:Action="http://services.senior.com.br/sapiens_Synccom_senior_g5_co_mcm_est_estoques/ConsultarEstoqueRequest" message="tns:ConsultarEstoque"/>
+<output wsam:Action="http://services.senior.com.br/sapiens_Synccom_senior_g5_co_mcm_est_estoques/ConsultarEstoqueResponse" message="tns:ConsultarEstoqueResponse"/>
+</operation>
 </portType>
 <binding name="sapiens_Synccom_senior_g5_co_mcm_est_estoquesPortBinding" type="tns:sapiens_Synccom_senior_g5_co_mcm_est_estoques">
 <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc"/>
-<operation name="ConsultarEstoque">
-<soap:operation soapAction=""/>
-<input>
-<soap:body use="literal" namespace="http://services.senior.com.br"/>
-</input>
-<output>
-<soap:body use="literal" namespace="http://services.senior.com.br"/>
-</output>
-</operation>
 <operation name="MovimentarEstoque">
 <soap:operation soapAction=""/>
 <input>
@@ -65,7 +69,25 @@
 <soap:body use="literal" namespace="http://services.senior.com.br"/>
 </output>
 </operation>
+<operation name="TransferenciaProdutos">
+<soap:operation soapAction=""/>
+<input>
+<soap:body use="literal" namespace="http://services.senior.com.br"/>
+</input>
+<output>
+<soap:body use="literal" namespace="http://services.senior.com.br"/>
+</output>
+</operation>
 <operation name="Fechar">
+<soap:operation soapAction=""/>
+<input>
+<soap:body use="literal" namespace="http://services.senior.com.br"/>
+</input>
+<output>
+<soap:body use="literal" namespace="http://services.senior.com.br"/>
+</output>
+</operation>
+<operation name="ConsultarEstoque">
 <soap:operation soapAction=""/>
 <input>
 <soap:body use="literal" namespace="http://services.senior.com.br"/>

@@ -204,8 +204,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "abrFpj", scope = SolicitacaocomprabuscarPendentes3OutSolicitacao.class)
     public JAXBElement<String> createSolicitacaocomprabuscarPendentes3OutSolicitacaoAbrFpj(String value) {
@@ -213,8 +217,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "abrPrj", scope = SolicitacaocomprabuscarPendentes3OutSolicitacao.class)
     public JAXBElement<String> createSolicitacaocomprabuscarPendentes3OutSolicitacaoAbrPrj(String value) {
@@ -222,8 +230,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "abreviaturaCentroCusto", scope = SolicitacaocomprabuscarPendentes3OutSolicitacao.class)
     public JAXBElement<String> createSolicitacaocomprabuscarPendentes3OutSolicitacaoAbreviaturaCentroCusto(String value) {
@@ -231,8 +243,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "codFpj", scope = SolicitacaocomprabuscarPendentes3OutSolicitacao.class)
     public JAXBElement<Integer> createSolicitacaocomprabuscarPendentes3OutSolicitacaoCodFpj(Integer value) {
@@ -240,8 +256,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "codigoCentroCusto", scope = SolicitacaocomprabuscarPendentes3OutSolicitacao.class)
     public JAXBElement<String> createSolicitacaocomprabuscarPendentes3OutSolicitacaoCodigoCentroCusto(String value) {
@@ -249,8 +269,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "codigoEmpresa", scope = SolicitacaocomprabuscarPendentes3OutSolicitacao.class)
     public JAXBElement<Integer> createSolicitacaocomprabuscarPendentes3OutSolicitacaoCodigoEmpresa(Integer value) {
@@ -258,8 +282,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "codigoFilial", scope = SolicitacaocomprabuscarPendentes3OutSolicitacao.class)
     public JAXBElement<Integer> createSolicitacaocomprabuscarPendentes3OutSolicitacaoCodigoFilial(Integer value) {
@@ -267,8 +295,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "codigoSolicitante", scope = SolicitacaocomprabuscarPendentes3OutSolicitacao.class)
     public JAXBElement<Integer> createSolicitacaocomprabuscarPendentes3OutSolicitacaoCodigoSolicitante(Integer value) {
@@ -276,8 +308,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "dataSolicitacao", scope = SolicitacaocomprabuscarPendentes3OutSolicitacao.class)
     public JAXBElement<String> createSolicitacaocomprabuscarPendentes3OutSolicitacaoDataSolicitacao(String value) {
@@ -285,8 +321,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "descricaoMoeda", scope = SolicitacaocomprabuscarPendentes3OutSolicitacao.class)
     public JAXBElement<String> createSolicitacaocomprabuscarPendentes3OutSolicitacaoDescricaoMoeda(String value) {
@@ -294,8 +334,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "descricaoProdutoServico", scope = SolicitacaocomprabuscarPendentes3OutSolicitacao.class)
     public JAXBElement<String> createSolicitacaocomprabuscarPendentes3OutSolicitacaoDescricaoProdutoServico(String value) {
@@ -303,8 +347,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "nomeEmpresa", scope = SolicitacaocomprabuscarPendentes3OutSolicitacao.class)
     public JAXBElement<String> createSolicitacaocomprabuscarPendentes3OutSolicitacaoNomeEmpresa(String value) {
@@ -312,8 +360,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "nomeFilial", scope = SolicitacaocomprabuscarPendentes3OutSolicitacao.class)
     public JAXBElement<String> createSolicitacaocomprabuscarPendentes3OutSolicitacaoNomeFilial(String value) {
@@ -321,8 +373,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "nomeSolicitante", scope = SolicitacaocomprabuscarPendentes3OutSolicitacao.class)
     public JAXBElement<String> createSolicitacaocomprabuscarPendentes3OutSolicitacaoNomeSolicitante(String value) {
@@ -330,8 +386,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "numPrj", scope = SolicitacaocomprabuscarPendentes3OutSolicitacao.class)
     public JAXBElement<Integer> createSolicitacaocomprabuscarPendentes3OutSolicitacaoNumPrj(Integer value) {
@@ -339,8 +399,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "numero", scope = SolicitacaocomprabuscarPendentes3OutSolicitacao.class)
     public JAXBElement<Integer> createSolicitacaocomprabuscarPendentes3OutSolicitacaoNumero(Integer value) {
@@ -348,8 +412,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "observacao", scope = SolicitacaocomprabuscarPendentes3OutSolicitacao.class)
     public JAXBElement<String> createSolicitacaocomprabuscarPendentes3OutSolicitacaoObservacao(String value) {
@@ -357,8 +425,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Double }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link Double }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Double }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "quantidadeSolicitada", scope = SolicitacaocomprabuscarPendentes3OutSolicitacao.class)
     public JAXBElement<Double> createSolicitacaocomprabuscarPendentes3OutSolicitacaoQuantidadeSolicitada(Double value) {
@@ -366,8 +438,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "sequencia", scope = SolicitacaocomprabuscarPendentes3OutSolicitacao.class)
     public JAXBElement<Integer> createSolicitacaocomprabuscarPendentes3OutSolicitacaoSequencia(Integer value) {
@@ -375,8 +451,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "siglaMoeda", scope = SolicitacaocomprabuscarPendentes3OutSolicitacao.class)
     public JAXBElement<String> createSolicitacaocomprabuscarPendentes3OutSolicitacaoSiglaMoeda(String value) {
@@ -384,8 +464,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "unidadeMedida", scope = SolicitacaocomprabuscarPendentes3OutSolicitacao.class)
     public JAXBElement<String> createSolicitacaocomprabuscarPendentes3OutSolicitacaoUnidadeMedida(String value) {
@@ -393,8 +477,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Double }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link Double }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Double }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "valorAproximado", scope = SolicitacaocomprabuscarPendentes3OutSolicitacao.class)
     public JAXBElement<Double> createSolicitacaocomprabuscarPendentes3OutSolicitacaoValorAproximado(Double value) {
@@ -402,8 +490,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Double }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link Double }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Double }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "valorUnitario", scope = SolicitacaocomprabuscarPendentes3OutSolicitacao.class)
     public JAXBElement<Double> createSolicitacaocomprabuscarPendentes3OutSolicitacaoValorUnitario(Double value) {
@@ -411,8 +503,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "codigoResultado", scope = SolicitacaocomprabuscarPendentes3Out.class)
     public JAXBElement<String> createSolicitacaocomprabuscarPendentes3OutCodigoResultado(String value) {
@@ -420,8 +516,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "erroExecucao", scope = SolicitacaocomprabuscarPendentes3Out.class)
     public JAXBElement<String> createSolicitacaocomprabuscarPendentes3OutErroExecucao(String value) {
@@ -429,8 +529,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "resultado", scope = SolicitacaocomprabuscarPendentes3Out.class)
     public JAXBElement<String> createSolicitacaocomprabuscarPendentes3OutResultado(String value) {
@@ -438,8 +542,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "codUsu", scope = SolicitacaocomprabuscarPendentes3In.class)
     public JAXBElement<Integer> createSolicitacaocomprabuscarPendentes3InCodUsu(Integer value) {
@@ -447,8 +555,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "flowInstanceID", scope = SolicitacaocomprabuscarPendentes3In.class)
     public JAXBElement<String> createSolicitacaocomprabuscarPendentes3InFlowInstanceID(String value) {
@@ -456,8 +568,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "flowName", scope = SolicitacaocomprabuscarPendentes3In.class)
     public JAXBElement<String> createSolicitacaocomprabuscarPendentes3InFlowName(String value) {
@@ -465,8 +581,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "indicePagina", scope = SolicitacaocomprabuscarPendentes3In.class)
     public JAXBElement<Integer> createSolicitacaocomprabuscarPendentes3InIndicePagina(Integer value) {
@@ -474,8 +594,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "limitePagina", scope = SolicitacaocomprabuscarPendentes3In.class)
     public JAXBElement<Integer> createSolicitacaocomprabuscarPendentes3InLimitePagina(Integer value) {
@@ -483,8 +607,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "abreviaturaCentroCusto", scope = SolicitacaocomprabuscarPendentes2OutSolicitacao.class)
     public JAXBElement<String> createSolicitacaocomprabuscarPendentes2OutSolicitacaoAbreviaturaCentroCusto(String value) {
@@ -492,8 +620,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "codigoCentroCusto", scope = SolicitacaocomprabuscarPendentes2OutSolicitacao.class)
     public JAXBElement<String> createSolicitacaocomprabuscarPendentes2OutSolicitacaoCodigoCentroCusto(String value) {
@@ -501,8 +633,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "codigoEmpresa", scope = SolicitacaocomprabuscarPendentes2OutSolicitacao.class)
     public JAXBElement<Integer> createSolicitacaocomprabuscarPendentes2OutSolicitacaoCodigoEmpresa(Integer value) {
@@ -510,8 +646,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "codigoFilial", scope = SolicitacaocomprabuscarPendentes2OutSolicitacao.class)
     public JAXBElement<Integer> createSolicitacaocomprabuscarPendentes2OutSolicitacaoCodigoFilial(Integer value) {
@@ -519,8 +659,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "codigoSolicitante", scope = SolicitacaocomprabuscarPendentes2OutSolicitacao.class)
     public JAXBElement<Integer> createSolicitacaocomprabuscarPendentes2OutSolicitacaoCodigoSolicitante(Integer value) {
@@ -528,8 +672,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "dataSolicitacao", scope = SolicitacaocomprabuscarPendentes2OutSolicitacao.class)
     public JAXBElement<String> createSolicitacaocomprabuscarPendentes2OutSolicitacaoDataSolicitacao(String value) {
@@ -537,8 +685,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "descricaoMoeda", scope = SolicitacaocomprabuscarPendentes2OutSolicitacao.class)
     public JAXBElement<String> createSolicitacaocomprabuscarPendentes2OutSolicitacaoDescricaoMoeda(String value) {
@@ -546,8 +698,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "descricaoProdutoServico", scope = SolicitacaocomprabuscarPendentes2OutSolicitacao.class)
     public JAXBElement<String> createSolicitacaocomprabuscarPendentes2OutSolicitacaoDescricaoProdutoServico(String value) {
@@ -555,8 +711,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "nomeEmpresa", scope = SolicitacaocomprabuscarPendentes2OutSolicitacao.class)
     public JAXBElement<String> createSolicitacaocomprabuscarPendentes2OutSolicitacaoNomeEmpresa(String value) {
@@ -564,8 +724,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "nomeFilial", scope = SolicitacaocomprabuscarPendentes2OutSolicitacao.class)
     public JAXBElement<String> createSolicitacaocomprabuscarPendentes2OutSolicitacaoNomeFilial(String value) {
@@ -573,8 +737,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "nomeSolicitante", scope = SolicitacaocomprabuscarPendentes2OutSolicitacao.class)
     public JAXBElement<String> createSolicitacaocomprabuscarPendentes2OutSolicitacaoNomeSolicitante(String value) {
@@ -582,8 +750,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "numero", scope = SolicitacaocomprabuscarPendentes2OutSolicitacao.class)
     public JAXBElement<Integer> createSolicitacaocomprabuscarPendentes2OutSolicitacaoNumero(Integer value) {
@@ -591,8 +763,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "observacao", scope = SolicitacaocomprabuscarPendentes2OutSolicitacao.class)
     public JAXBElement<String> createSolicitacaocomprabuscarPendentes2OutSolicitacaoObservacao(String value) {
@@ -600,8 +776,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Double }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link Double }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Double }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "quantidadeSolicitada", scope = SolicitacaocomprabuscarPendentes2OutSolicitacao.class)
     public JAXBElement<Double> createSolicitacaocomprabuscarPendentes2OutSolicitacaoQuantidadeSolicitada(Double value) {
@@ -609,8 +789,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "sequencia", scope = SolicitacaocomprabuscarPendentes2OutSolicitacao.class)
     public JAXBElement<Integer> createSolicitacaocomprabuscarPendentes2OutSolicitacaoSequencia(Integer value) {
@@ -618,8 +802,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "siglaMoeda", scope = SolicitacaocomprabuscarPendentes2OutSolicitacao.class)
     public JAXBElement<String> createSolicitacaocomprabuscarPendentes2OutSolicitacaoSiglaMoeda(String value) {
@@ -627,8 +815,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "unidadeMedida", scope = SolicitacaocomprabuscarPendentes2OutSolicitacao.class)
     public JAXBElement<String> createSolicitacaocomprabuscarPendentes2OutSolicitacaoUnidadeMedida(String value) {
@@ -636,8 +828,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Double }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link Double }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Double }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "valorAproximado", scope = SolicitacaocomprabuscarPendentes2OutSolicitacao.class)
     public JAXBElement<Double> createSolicitacaocomprabuscarPendentes2OutSolicitacaoValorAproximado(Double value) {
@@ -645,8 +841,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Double }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link Double }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Double }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "valorUnitario", scope = SolicitacaocomprabuscarPendentes2OutSolicitacao.class)
     public JAXBElement<Double> createSolicitacaocomprabuscarPendentes2OutSolicitacaoValorUnitario(Double value) {
@@ -654,8 +854,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "codigoResultado", scope = SolicitacaocomprabuscarPendentes2Out.class)
     public JAXBElement<String> createSolicitacaocomprabuscarPendentes2OutCodigoResultado(String value) {
@@ -663,8 +867,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "erroExecucao", scope = SolicitacaocomprabuscarPendentes2Out.class)
     public JAXBElement<String> createSolicitacaocomprabuscarPendentes2OutErroExecucao(String value) {
@@ -672,8 +880,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "resultado", scope = SolicitacaocomprabuscarPendentes2Out.class)
     public JAXBElement<String> createSolicitacaocomprabuscarPendentes2OutResultado(String value) {
@@ -681,8 +893,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "codUsu", scope = SolicitacaocomprabuscarPendentes2In.class)
     public JAXBElement<Integer> createSolicitacaocomprabuscarPendentes2InCodUsu(Integer value) {
@@ -690,8 +906,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "flowInstanceID", scope = SolicitacaocomprabuscarPendentes2In.class)
     public JAXBElement<String> createSolicitacaocomprabuscarPendentes2InFlowInstanceID(String value) {
@@ -699,8 +919,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "flowName", scope = SolicitacaocomprabuscarPendentes2In.class)
     public JAXBElement<String> createSolicitacaocomprabuscarPendentes2InFlowName(String value) {
@@ -708,8 +932,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "indicePagina", scope = SolicitacaocomprabuscarPendentes2In.class)
     public JAXBElement<Integer> createSolicitacaocomprabuscarPendentes2InIndicePagina(Integer value) {
@@ -717,8 +945,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "limitePagina", scope = SolicitacaocomprabuscarPendentes2In.class)
     public JAXBElement<Integer> createSolicitacaocomprabuscarPendentes2InLimitePagina(Integer value) {
@@ -726,8 +958,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "abreviaturaCentroCusto", scope = SolicitacaocomprabuscarPendentesOutSolicitacao.class)
     public JAXBElement<String> createSolicitacaocomprabuscarPendentesOutSolicitacaoAbreviaturaCentroCusto(String value) {
@@ -735,8 +971,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "codigoCentroCusto", scope = SolicitacaocomprabuscarPendentesOutSolicitacao.class)
     public JAXBElement<String> createSolicitacaocomprabuscarPendentesOutSolicitacaoCodigoCentroCusto(String value) {
@@ -744,8 +984,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "codigoEmpresa", scope = SolicitacaocomprabuscarPendentesOutSolicitacao.class)
     public JAXBElement<Integer> createSolicitacaocomprabuscarPendentesOutSolicitacaoCodigoEmpresa(Integer value) {
@@ -753,8 +997,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "codigoFilial", scope = SolicitacaocomprabuscarPendentesOutSolicitacao.class)
     public JAXBElement<Integer> createSolicitacaocomprabuscarPendentesOutSolicitacaoCodigoFilial(Integer value) {
@@ -762,8 +1010,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "codigoSolicitante", scope = SolicitacaocomprabuscarPendentesOutSolicitacao.class)
     public JAXBElement<Integer> createSolicitacaocomprabuscarPendentesOutSolicitacaoCodigoSolicitante(Integer value) {
@@ -771,8 +1023,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "dataSolicitacao", scope = SolicitacaocomprabuscarPendentesOutSolicitacao.class)
     public JAXBElement<String> createSolicitacaocomprabuscarPendentesOutSolicitacaoDataSolicitacao(String value) {
@@ -780,8 +1036,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "descricaoMoeda", scope = SolicitacaocomprabuscarPendentesOutSolicitacao.class)
     public JAXBElement<String> createSolicitacaocomprabuscarPendentesOutSolicitacaoDescricaoMoeda(String value) {
@@ -789,8 +1049,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "descricaoProdutoServico", scope = SolicitacaocomprabuscarPendentesOutSolicitacao.class)
     public JAXBElement<String> createSolicitacaocomprabuscarPendentesOutSolicitacaoDescricaoProdutoServico(String value) {
@@ -798,8 +1062,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "nomeEmpresa", scope = SolicitacaocomprabuscarPendentesOutSolicitacao.class)
     public JAXBElement<String> createSolicitacaocomprabuscarPendentesOutSolicitacaoNomeEmpresa(String value) {
@@ -807,8 +1075,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "nomeFilial", scope = SolicitacaocomprabuscarPendentesOutSolicitacao.class)
     public JAXBElement<String> createSolicitacaocomprabuscarPendentesOutSolicitacaoNomeFilial(String value) {
@@ -816,8 +1088,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "nomeSolicitante", scope = SolicitacaocomprabuscarPendentesOutSolicitacao.class)
     public JAXBElement<String> createSolicitacaocomprabuscarPendentesOutSolicitacaoNomeSolicitante(String value) {
@@ -825,8 +1101,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "numero", scope = SolicitacaocomprabuscarPendentesOutSolicitacao.class)
     public JAXBElement<Integer> createSolicitacaocomprabuscarPendentesOutSolicitacaoNumero(Integer value) {
@@ -834,8 +1114,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "observacao", scope = SolicitacaocomprabuscarPendentesOutSolicitacao.class)
     public JAXBElement<String> createSolicitacaocomprabuscarPendentesOutSolicitacaoObservacao(String value) {
@@ -843,8 +1127,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Double }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link Double }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Double }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "quantidadeSolicitada", scope = SolicitacaocomprabuscarPendentesOutSolicitacao.class)
     public JAXBElement<Double> createSolicitacaocomprabuscarPendentesOutSolicitacaoQuantidadeSolicitada(Double value) {
@@ -852,8 +1140,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "sequencia", scope = SolicitacaocomprabuscarPendentesOutSolicitacao.class)
     public JAXBElement<Integer> createSolicitacaocomprabuscarPendentesOutSolicitacaoSequencia(Integer value) {
@@ -861,8 +1153,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "siglaMoeda", scope = SolicitacaocomprabuscarPendentesOutSolicitacao.class)
     public JAXBElement<String> createSolicitacaocomprabuscarPendentesOutSolicitacaoSiglaMoeda(String value) {
@@ -870,8 +1166,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "unidadeMedida", scope = SolicitacaocomprabuscarPendentesOutSolicitacao.class)
     public JAXBElement<String> createSolicitacaocomprabuscarPendentesOutSolicitacaoUnidadeMedida(String value) {
@@ -879,8 +1179,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Double }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link Double }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Double }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "valorAproximado", scope = SolicitacaocomprabuscarPendentesOutSolicitacao.class)
     public JAXBElement<Double> createSolicitacaocomprabuscarPendentesOutSolicitacaoValorAproximado(Double value) {
@@ -888,8 +1192,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Double }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link Double }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Double }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "valorUnitario", scope = SolicitacaocomprabuscarPendentesOutSolicitacao.class)
     public JAXBElement<Double> createSolicitacaocomprabuscarPendentesOutSolicitacaoValorUnitario(Double value) {
@@ -897,8 +1205,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "codigoResultado", scope = SolicitacaocomprabuscarPendentesOut.class)
     public JAXBElement<String> createSolicitacaocomprabuscarPendentesOutCodigoResultado(String value) {
@@ -906,8 +1218,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "erroExecucao", scope = SolicitacaocomprabuscarPendentesOut.class)
     public JAXBElement<String> createSolicitacaocomprabuscarPendentesOutErroExecucao(String value) {
@@ -915,8 +1231,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "resultado", scope = SolicitacaocomprabuscarPendentesOut.class)
     public JAXBElement<String> createSolicitacaocomprabuscarPendentesOutResultado(String value) {
@@ -924,8 +1244,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "flowInstanceID", scope = SolicitacaocomprabuscarPendentesIn.class)
     public JAXBElement<String> createSolicitacaocomprabuscarPendentesInFlowInstanceID(String value) {
@@ -933,8 +1257,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "flowName", scope = SolicitacaocomprabuscarPendentesIn.class)
     public JAXBElement<String> createSolicitacaocomprabuscarPendentesInFlowName(String value) {
@@ -942,8 +1270,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "indicePagina", scope = SolicitacaocomprabuscarPendentesIn.class)
     public JAXBElement<Integer> createSolicitacaocomprabuscarPendentesInIndicePagina(Integer value) {
@@ -951,8 +1283,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "limitePagina", scope = SolicitacaocomprabuscarPendentesIn.class)
     public JAXBElement<Integer> createSolicitacaocomprabuscarPendentesInLimitePagina(Integer value) {
@@ -960,8 +1296,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "usuario", scope = SolicitacaocomprabuscarPendentesIn.class)
     public JAXBElement<Integer> createSolicitacaocomprabuscarPendentesInUsuario(Integer value) {
@@ -969,8 +1309,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "codigoEmpresa", scope = SolicitacaocompraaprovarOutRetorno.class)
     public JAXBElement<Integer> createSolicitacaocompraaprovarOutRetornoCodigoEmpresa(Integer value) {
@@ -978,8 +1322,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "mensagemErro", scope = SolicitacaocompraaprovarOutRetorno.class)
     public JAXBElement<String> createSolicitacaocompraaprovarOutRetornoMensagemErro(String value) {
@@ -987,8 +1335,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "numeroSolicitacao", scope = SolicitacaocompraaprovarOutRetorno.class)
     public JAXBElement<Integer> createSolicitacaocompraaprovarOutRetornoNumeroSolicitacao(Integer value) {
@@ -996,8 +1348,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "resultado", scope = SolicitacaocompraaprovarOutRetorno.class)
     public JAXBElement<Integer> createSolicitacaocompraaprovarOutRetornoResultado(Integer value) {
@@ -1005,8 +1361,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "sequencia", scope = SolicitacaocompraaprovarOutRetorno.class)
     public JAXBElement<Integer> createSolicitacaocompraaprovarOutRetornoSequencia(Integer value) {
@@ -1014,8 +1374,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "sequenciaSolicitacao", scope = SolicitacaocompraaprovarOutRetorno.class)
     public JAXBElement<Integer> createSolicitacaocompraaprovarOutRetornoSequenciaSolicitacao(Integer value) {
@@ -1023,8 +1387,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "codigoResultado", scope = SolicitacaocompraaprovarOut.class)
     public JAXBElement<String> createSolicitacaocompraaprovarOutCodigoResultado(String value) {
@@ -1032,8 +1400,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "erroExecucao", scope = SolicitacaocompraaprovarOut.class)
     public JAXBElement<String> createSolicitacaocompraaprovarOutErroExecucao(String value) {
@@ -1041,8 +1413,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "resultado", scope = SolicitacaocompraaprovarOut.class)
     public JAXBElement<String> createSolicitacaocompraaprovarOutResultado(String value) {
@@ -1050,8 +1426,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "codigoEmpresa", scope = SolicitacaocompraaprovarInSolicitacao.class)
     public JAXBElement<Integer> createSolicitacaocompraaprovarInSolicitacaoCodigoEmpresa(Integer value) {
@@ -1059,8 +1439,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "numeroSolicitacao", scope = SolicitacaocompraaprovarInSolicitacao.class)
     public JAXBElement<Integer> createSolicitacaocompraaprovarInSolicitacaoNumeroSolicitacao(Integer value) {
@@ -1068,8 +1452,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "sequencia", scope = SolicitacaocompraaprovarInSolicitacao.class)
     public JAXBElement<Integer> createSolicitacaocompraaprovarInSolicitacaoSequencia(Integer value) {
@@ -1077,8 +1465,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "sequenciaSolicitacao", scope = SolicitacaocompraaprovarInSolicitacao.class)
     public JAXBElement<Integer> createSolicitacaocompraaprovarInSolicitacaoSequenciaSolicitacao(Integer value) {
@@ -1086,8 +1478,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "flowInstanceID", scope = SolicitacaocompraaprovarIn.class)
     public JAXBElement<String> createSolicitacaocompraaprovarInFlowInstanceID(String value) {
@@ -1095,8 +1491,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "flowName", scope = SolicitacaocompraaprovarIn.class)
     public JAXBElement<String> createSolicitacaocompraaprovarInFlowName(String value) {
@@ -1104,8 +1504,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "codigoEmpresa", scope = SolicitacaocomprareprovarOutRetorno.class)
     public JAXBElement<Integer> createSolicitacaocomprareprovarOutRetornoCodigoEmpresa(Integer value) {
@@ -1113,8 +1517,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "mensagemErro", scope = SolicitacaocomprareprovarOutRetorno.class)
     public JAXBElement<String> createSolicitacaocomprareprovarOutRetornoMensagemErro(String value) {
@@ -1122,8 +1530,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "numeroSolicitacao", scope = SolicitacaocomprareprovarOutRetorno.class)
     public JAXBElement<Integer> createSolicitacaocomprareprovarOutRetornoNumeroSolicitacao(Integer value) {
@@ -1131,8 +1543,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "resultado", scope = SolicitacaocomprareprovarOutRetorno.class)
     public JAXBElement<Integer> createSolicitacaocomprareprovarOutRetornoResultado(Integer value) {
@@ -1140,8 +1556,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "sequencia", scope = SolicitacaocomprareprovarOutRetorno.class)
     public JAXBElement<Integer> createSolicitacaocomprareprovarOutRetornoSequencia(Integer value) {
@@ -1149,8 +1569,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "sequenciaSolicitacao", scope = SolicitacaocomprareprovarOutRetorno.class)
     public JAXBElement<Integer> createSolicitacaocomprareprovarOutRetornoSequenciaSolicitacao(Integer value) {
@@ -1158,8 +1582,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "codigoResultado", scope = SolicitacaocomprareprovarOut.class)
     public JAXBElement<String> createSolicitacaocomprareprovarOutCodigoResultado(String value) {
@@ -1167,8 +1595,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "erroExecucao", scope = SolicitacaocomprareprovarOut.class)
     public JAXBElement<String> createSolicitacaocomprareprovarOutErroExecucao(String value) {
@@ -1176,8 +1608,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "resultado", scope = SolicitacaocomprareprovarOut.class)
     public JAXBElement<String> createSolicitacaocomprareprovarOutResultado(String value) {
@@ -1185,8 +1621,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "codigoEmpresa", scope = SolicitacaocomprareprovarInSolicitacao.class)
     public JAXBElement<Integer> createSolicitacaocomprareprovarInSolicitacaoCodigoEmpresa(Integer value) {
@@ -1194,8 +1634,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "numeroSolicitacao", scope = SolicitacaocomprareprovarInSolicitacao.class)
     public JAXBElement<Integer> createSolicitacaocomprareprovarInSolicitacaoNumeroSolicitacao(Integer value) {
@@ -1203,8 +1647,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "sequencia", scope = SolicitacaocomprareprovarInSolicitacao.class)
     public JAXBElement<Integer> createSolicitacaocomprareprovarInSolicitacaoSequencia(Integer value) {
@@ -1212,8 +1660,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "sequenciaSolicitacao", scope = SolicitacaocomprareprovarInSolicitacao.class)
     public JAXBElement<Integer> createSolicitacaocomprareprovarInSolicitacaoSequenciaSolicitacao(Integer value) {
@@ -1221,8 +1673,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "flowInstanceID", scope = SolicitacaocomprareprovarIn.class)
     public JAXBElement<String> createSolicitacaocomprareprovarInFlowInstanceID(String value) {
@@ -1230,8 +1686,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "flowName", scope = SolicitacaocomprareprovarIn.class)
     public JAXBElement<String> createSolicitacaocomprareprovarInFlowName(String value) {
